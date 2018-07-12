@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>I-internCareer | 一站式实习平台</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/case.css" rel="stylesheet">
+    <link href="css/company.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/intern.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <link href="css/service.css" rel="stylesheet">
+    
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./image/logo.png" width="120" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">首页</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      产品服务
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./service.html">产品服务手册</a>
+                        <a class="dropdown-item" href="./service.html#service-background">职前背景提升</a>
+                        <a class="dropdown-item" href="./service.html#service-intern">名企实习直推</a>
+                        <a class="dropdown-item" href="./service.html#service-summer">暑期游学实习</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./news.html">实习资讯</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./intern.html">定制实习</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./company.html">企业入口</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./case.html">学员故事</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">联系我们</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="contact-all">
+              <div class="contact-all-mini">
+                  <img src="./image/coupon.png"/>
+                  <i class="far fa-money-bill-alt contact-mini-icon"></i>
+              </div> 
+            <div class="contact-all-mini">
+              <img src="./image/teng.png"/>
+              <i class="fab fa-weixin contact-mini-icon"></i>
+            </div>            
+            <div class="contact-all-mini" id="phone-dely">
+              <i class="fas fa-phone contact-mini-icon"></i>
+              <span id="delysia">咨询电话：<br>+1 (617) 319-7132</span>
+            </div>
+            <div class="contact-all-mini" id="contact-mobile" data-toggle="modal" data-target="#contact-mobile-form">
+              <i class="fas fa-comments contact-mini-icon"></i>
+            </div>
+                                <div class="modal fade" id="contact-mobile-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">联系求职顾问</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="apply-form">
+                                  <h3 id="apply-title">从这里，<br>开启你的实习定制之旅</h3>
+                                  <p id="apply-subtitle">请填写精确完整的信息，<br>便于我们的求职顾问联系到你</p><br>
+                                  <form class="form-center mobile-apply">
+                                      <input name="mobileName" class="form-control" placeholder="姓名">
+                                      <input name="mobileEmail" class="form-control" placeholder="邮箱">
+                                      <input name="mobileWechat" class="form-control" placeholder="微信">
+                                      <input name="mobileSchool" class="form-control" placeholder="院校">
+                                      <input name="mobileMajor" class="form-control" placeholder="专业">
+                                      <input name="mobileNote" class="form-control" placeholder="备注">
+                                      <button type="submit" class="btn btn-primary mb-2 company-btn mobile-submit">提交表格</button>
+                                  </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            <div class="contact-all-mini" id="backtop"><i class="fas fa-arrow-up contact-mini-icon"></i></div>            
+          </div>
+          <div id="banner">
+                <div id="banner-sub1">
+                    <p>你的专属实习顾问，私人订制项目<br>
+                    全方位孵化即战力，梦想从这里扬帆起航</p>
+                    <a href="./intern.html"><button>开启实习定制</button></a>
+                </div>
+                <img id="banner-video" id="bgvid" src="./test.gif" width="100%" height="auto" alt="polina">
+
+          </div>
+        <div id="intro">
+            <img src="./image/header-deco.png" width="48px" height="auto">
+            <h1>硅谷最具魄力的留学生背景提升平台</h1>
+            <p id="intro-text">I-intern鹰腾实习平台立足于全球创新腹地硅谷，坐拥得天独厚的美国本土实习项目资源以及最前沿的求职提升咨询，
+                倾力打造“最精准，最有效，最广阔”的高端实习背景提升平台。独创线上线下实战模式，帮助学生快速了解行业，获取经验，
+                拓展人脉并提升眼界。我们的团队全部毕业于美国名校，平台孵化于国际知名创投集团，资源汇聚中美各大公司。我们长期与企业保持高度关注，
+                第一时间精准获取新鲜求职信息和职位项目咨询，让学生第一时间获得新鲜丰富资源的背景提升资源，也让企业更加信任我们的人才和注重培养学生成长。
+            </p>
+            <br><br>
+            
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xl_U5yryNA0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="service">
+            <img src="./image/header-deco.png" width="48px" height="auto">
+            <h1>全面贴心的一站式服务</h1>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <img class="service-img" src="./image/service1.png">
+                    <h2>职前提升明星计划</h2>
+                    <img class="devide-line" src="./image/devide.png">
+                    <p class="service-detail">
+                    简历润色 | 模拟面试<br>
+                    文书修改 | 求职规划<br>
+                    领英设计 | 就业咨询
+                    </p>                    
+                  </div>
+                  <div class="col-sm">
+                    <img class="service-img" src="./image/service2.png">
+                    <h2>世界名企实习直推</h2>
+                    <img class="devide-line" src="./image/devide.png">
+                    <p class="service-detail">
+                    世界五百强 | 创业独角兽<br>
+                    囊括各大专业 | 获取实习证明<br>
+                    导师亲笔推荐 | 名企转正机会
+                    </p>                      
+                  </div>
+                  <div class="col-sm">
+                    <img class="service-img" src="./image/service3.png">
+                    <h2>实战游学精英项目</h2>
+                    <img class="devide-line" src="./image/devide.png">
+                    <p class="service-detail">
+                    顶尖名校 | 游学实习<br>
+                    名企实战 | 体验创业<br>
+                    商业竞赛 | 模拟融资
+                    </p>                    
+                  </div>
+                </div>
+            </div>
+            <br><br>
+            <a class="jump-service" href="./service-handbook.html">查看完整的服务内容  -></a>
+        </div>
+        <div id="choice">
+            <img src="./image/header-deco.png" width="48px" height="auto">
+            <h1>为什么选择I-intern</h1>
+            
+            <div class="row counters" style="margin-bottom:35px;">
+              <div class="col-sm-3 col-6 text-center">
+                  <span data-toggle="counter-up">300</span>
+                  <span>+</span>
+                  <p>精品实习项目</p>
+                </div>
+      
+                <div class="col-sm-3 col-6 text-center">
+                  <span data-toggle="counter-up">100</span>
+                  <span>%</span>
+                  <p>美国名企团队</p>
+                </div>
+      
+                <div class="col-sm-3 col-6 text-center">
+                  <span data-toggle="counter-up">999</span>
+                  <span>+</span>
+                  <p>学生获得帮助</p>
+                </div>
+      
+                <div class="col-sm-3 col-6 text-center">
+                  <span data-toggle="counter-up">20</span>
+                  <span>+</span>
+                  <p>不同实习领域</p>
+                </div>
+      
+            </div>
+            <h2>实习项目覆盖</h2>
+            <img id="choice-graphic" width="70%" height="auto" src="./image/graphic.png">
+        </div>
+
+        <div id="feedback">
+          <div class="center-container">
+          <img src="./image/header-deco.png" width="48px" height="auto">
+          <h1>用户反馈 职享未来</h1>
+        </div>
+          <div class="feedback-container">
+            <div class="row" id="feedback-row">
+              <div class="col-sm-5 student center-container">
+                <h3 id="feedback-title1">来自学生的话</h3><br><br>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active container">
+                          <p class="hr-feedback">I-intern实习平台的暑期实习游学提升项目BEP就像浓缩的青春——充满挑战、成功、挫折，但基调却始终是温暖，是信任。我报考梦寐以求的纽约大学，面试时招生官对我在I-intern完成的BEP实习实战经历很感兴趣，我也谈了很多项目期间的心得和感受，和纽约大学面试官聊得很开心！感谢BEP这段颇有价值的暑期游学实习经历助我斩获心仪的NYU研究生offer！也让我对自身实力和未来规划有了更清晰的认识，真的很有帮助。</p>
+                          <br><br>
+                          <div class="feedback-person">
+                              <img class="feedback-profile" width="15%" src="./image/profile1.png" alt="First slide">                                      
+                              <p class="feedback-name">Kathy</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item container">
+                          <p class="hr-feedback">我是Emory University的本科学生，之前在腾讯、万科实习过，可依然觉得实践经验不够，还需要提升。此时朋友就给我推了I-intern实习平台的名片，客服小姐姐答疑解惑特别到位，根据我的情况马上提供了对应的帮助，让我顺利找到了华尔街的投行实习，就此从亚特兰大搬到了纽约，每天进出川普大楼实习还是挺爽的。实习项目的公司很高端，每天内容很充实，这两天还在和经理谈留任的问题。最后再感叹一句，遇到好伯乐真的是不容易。</p>
+                          <br><br>
+                          <div class="feedback-person">
+                              <img class="feedback-profile" width="15%" src="./image/profile5.jpeg" alt="First slide">                                      
+                              <p class="feedback-name">Yvonne</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item container">
+                        <p class="hr-feedback">我是传媒专业的，旧金山艺术大学，在I-intern通过咨询和培训后申请了好莱坞一家传媒公司的实习并顺利拿到了Offer。2个月时间，做了一部宣传片，拍摄剧本剪辑出演，manager特别pushing，由衷的表示上班和上学果然不一样。拿着这份实习的推荐信，我获得了今年夏天Stan Lee在LA好莱坞新电影制片组的实习生录取！ 我不想用夸张的语气来形容一次实习项目的效果，但是我真的感激这次实习为我嫁接的人脉资源和思维方式，终身受用，感谢！</p>
+                        <br><br>
+                        <div class="feedback-person">
+                            <img class="feedback-profile" width="15%" src="./image/profile8.jpg" alt="First slide">                                      
+                            <p class="feedback-name">Wonderlyle</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item container">
+                        <p class="hr-feedback">我是Columbia的，明年毕业，在 I-intern导师的答疑和指导下选择了一家风险投资公司做实习，公司质量特别高，做了两个月的financial analyst intern后感觉学校白念了，两个月就好像学了两个学期一样，理解了好多商业规则和规律。我现在已经结束这个项目，并且在公司大佬的推荐下在华尔街做资管的培训生了，总结起来，我觉得资源+人脉真的是决定了一开始的高度，很庆幸选择了I-intern实习平台，会跟朋友推荐。</p>
+                        <br><br>
+                        <div class="feedback-person">
+                            <img class="feedback-profile" width="15%" src="./image/profile6.jpeg" alt="First slide">                                      
+                            <p class="feedback-name">YIBestrong</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item container">
+                        <p class="hr-feedback">我是UC Berkeley双专业, 经济+CS，之前申请了一个资产配置的助理工作，由于没有实习经验，申请屡屡碰壁，在朋友推荐下关注了I-intern，在客服和工作人员的帮助和指导下我顺利找到了一份高含金量的实习。实习结束后，我决定把推荐信和包含I-intern这次实习经历的简历又推了一遍，没想到这次被！录！取！了！我和HR好好聊了一下实习经历，她非常认可。只能说，Using I-intern is the smartest way I have ever chosen.</p>
+                        <br><br>
+                        <div class="feedback-person">
+                            <img class="feedback-profile" width="15%" src="./image/profile7.jpeg" alt="First slide">                                      
+                            <p class="feedback-name">张阿阿</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item container">
+                        <p class="hr-feedback">我从没试过那样和队友一起奋战，从没体验过投资公司那种特有的团队文化，更从没接触过高强度精英创业营销赛那样的活动，我只能说，在I-intern实习平台的帮助下找到的实习经历让我受益匪浅。在和队友共同经历了项目的全部环节后，我们会发现最终收获的价值是在协同合作、挑战极限的过程里渐渐走出了事不关己高高挂起的怪圈，是开始学会形成积极的能量进而影响他人，是不断从周围吸引有利的因素，从而让自己变得更好！</p>
+                        <br><br>
+                        <div class="feedback-person">
+                            <img class="feedback-profile" width="15%" src="./image/profile9.jpg" alt="First slide">                                      
+                            <p class="feedback-name">Leslie</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                <a class="jump-service" href="./case.html">查看更多真实案例 -></a>
+              </div>
+
+              <div class="col-sm-7 school">
+                <h3 id="feedback-title2"> 部分过往学生来自</h3>
+                <br><br>
+                <img width="85%" height="auto" src="./image/students.png">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <img width="15%" height="auto" src="./image/logo.png"><br><br>
+          <div class="footer-socialmedia">
+            <a href="mailto:info@iintern.com"><img class="social-icon" src="./image/msg.png"></a>
+            <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/weibo.png"></a>
+            <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities"><img class="social-icon" src="./image/zhihu.png"></a>
+            <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="./image/ins.png"></a>
+            <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd"><img class="social-icon" src="./image/wechat.png"></a>
+            </div>
+            <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+        </div>
+        <script src="./node_modules/waypoints/waypoints.min.js"></script>
+        <script src="./node_modules/counterup/counterup.js"></script>
+    </body>
+    <footer>
+        <script src="./js/mobile-intern-validation.js"></script>
+    </footer>
+</html>

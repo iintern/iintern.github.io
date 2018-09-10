@@ -11,7 +11,13 @@
         margin: auto;
         text-align: center;
     }
-
+    #intern-slogan {
+        font-size: 1rem;
+        color: #000;
+        font-weight: 500;  
+        text-align: center;
+        margin-top: 6rem;    
+    }
     .center-header {
         font-size: 1rem;
         padding: 1rem 0;
@@ -80,6 +86,10 @@
     .company-whydetail-real {
         text-align: left;
         color: #37495B;
+    }
+    .intern-hire-words {
+        height: 10%;
+        width: auto;
     }    
     }
     
@@ -91,7 +101,13 @@
         margin: auto;
         text-align: center;
     }
-
+    #intern-slogan {
+        font-size: 1.2rem;
+        color: #000;
+        font-weight: 600;  
+        text-align: center;
+        margin-top: 6rem;    
+    }
     .center-header {
         font-size: 1.5rem;
         padding: 2rem 0;
@@ -152,7 +168,11 @@
     .company-whydetail-real {
         text-align: left;
         color: #37495B;
-    }      
+    }
+    .intern-hire-words {
+        height: 7%;
+        width: auto;
+    }     
     }
     
     /* Medium Layout: 1280px. */
@@ -163,7 +183,13 @@
         margin: auto;
         text-align: center;
     }
-
+    #intern-slogan {
+        font-size: 1.4rem;
+        color: #000;
+        font-weight: 600;  
+        text-align: center;
+        margin-top: 6rem;    
+    }
     .center-header {
         font-size: 1.5rem;
         padding: 2rem 0;
@@ -224,7 +250,11 @@
     .company-whydetail-real {
         text-align: left;
         color: #37495B;
-    }   
+    }
+    .intern-hire-words {
+        height: 10%;
+        width: auto;
+    } 
     }
     
     /* Max Layout */
@@ -235,7 +265,13 @@
         margin: auto;
         text-align: center;
     }
-
+    #intern-slogan {
+        font-size: 1.8rem;
+        color: #000;
+        font-weight: 700;  
+        text-align: center;
+        margin-top: 8rem;    
+    }
     .center-header {
         font-size: 1.5rem;
         padding: 2rem 0;
@@ -296,5 +332,9 @@
     .company-whydetail-real {
         text-align: left;
         color: #37495B;
-    } 
+    }
+    .intern-hire-words {
+        height: 10%;
+        width: auto;
+    }
     }

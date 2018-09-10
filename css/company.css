@@ -35,7 +35,7 @@
                     }
             
                     .company-why {
-                        padding: 0;
+                        padding: 0 0 2rem 0;
                         font-size: 1.2rem;
                         color: #000;
                         font-weight: 600;
@@ -197,7 +197,7 @@
             }
             .header-img {
                 padding: 4rem 0 6rem 0;
-                text-align: center;            
+                text-align: center;
             }
             .header-title {
                 font-size: 2rem;
@@ -214,7 +214,7 @@
             }
     
             .company-why {
-                padding: 0 0 2rem 4rem;
+                padding: 0 0 2rem 0;
                 font-size: 1.8rem;
                 color: #000;
                 font-weight: 700;
@@ -389,7 +389,7 @@
         }
 
         .company-why {
-            padding: 0 0 2rem 4rem;
+            padding: 0 0 2rem 0;
             font-size: 1.8rem;
             color: #000;
             font-weight: 700;
@@ -563,7 +563,7 @@ button:focus {
 }
 
 .company-why {
-    padding: 0 0 2rem 4rem;
+    padding: 0 0 2rem 0;
     font-size: 1.8rem;
     color: #000;
     font-weight: 700;

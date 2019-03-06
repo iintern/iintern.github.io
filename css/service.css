@@ -15,15 +15,19 @@
         border: none;
         outline: none;
      }
-     
+     h4 {
+        color: #DD6B6B;
+        font-size: 0.8rem;
+        margin: 0.6rem;
+    }
      button:focus {
          outline: none;
      }
     .service-img {
-        height: 15%;
+        height: 8%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer {
+    #service-book, #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 80%; 
@@ -90,11 +94,16 @@
         color: #000;
         font-weight: 700;   
     }
+    h4 {
+        color: #DD6B6B;
+        font-size: 1rem;
+        margin: 0.8rem;
+    }
     .service-img {
-        height: 15%;
+        height: 10%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer {
+    #service-book, #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 70%; 
@@ -155,11 +164,16 @@
         color: #000;
         font-weight: 700;   
     }
+    h4 {
+        color: #DD6B6B;
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
     .service-img {
-        height: 20%;
+        height: 10%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer {
+    #service-book, #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 70%; 
@@ -220,11 +234,16 @@
         color: #000;
         font-weight: 700;   
     }
+    h4 {
+        color: #DD6B6B;
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
     .service-img {
-        height: 30%;
+        height: 10%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer {
+    #service-book, #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 70%; 
@@ -273,5 +292,4 @@
     #service-container {
         margin: auto 6rem;
     }
-
     }

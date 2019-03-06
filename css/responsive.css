@@ -5,21 +5,6 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
-  #banner-video { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
 html,body { 
   height: 100%;
   margin: 0;
@@ -118,11 +103,6 @@ h3 {
     font-size: 1rem;
 }
 
-/* Remove Chrome Input Field's Unwanted Yellow Background Color */
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
-
 .navbar {
     background-color: #fff;
     clear: both;
@@ -130,18 +110,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .dropdown:hover .dropdown-menu{
     display:block;
   }
-#banner {
-    min-height: 250px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    -moz-box-shadow:  0 2px 5px 0 #333;
-    -webkit-box-shadow: 0 2px 5px 0 #333;
-    box-shadow: 0 2px 5px 0 #333;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 80%;
-}
 
 .navbar-toggler {
    border: none;
@@ -291,49 +259,42 @@ button:focus {
     font-size: 0.6rem;
 }
 
-#banner-sub1 { 
-  font-weight:400; 
-  color: white;
-  margin:14rem 4rem;
-  float: left;
-  font-size: 0.8rem;
-}
-
-#banner-sub1 button { 
-  padding: 0.4rem 1rem;
-  border: solid white 0.05rem;
-  margin: 1.6rem 0; 
-  font-size: 0.8rem;
-  background: transparent;
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-
-#banner-sub1 button:hover {
-    background-color: #fff;
-    color: #000;
+.carousel-sub button { 
+    padding: 0.4rem 1rem;
+    border: solid white 0.1rem;
+    margin: 2rem 0; 
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+  }
+  
+  .carousel-sub button:hover {
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .carousel-sub {
+      text-align: left;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      color: white;
+  }
+  
+  .carousel-sub p {
+      font-size: 1.2rem;
+  }
+  .home-service-img {
+    height: 18%;
+    width: auto;
 }
 }
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-  #banner-video { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
 html,body { 
   height: 100%;
   margin: 0;
@@ -425,31 +386,12 @@ h2 {
 h3 {
     font-size: 1rem;
 }
-
-/* Remove Chrome Input Field's Unwanted Yellow Background Color */
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
-
 .navbar {
     background-color: #fff;
 }
 .dropdown:hover .dropdown-menu{
     display:block;
   }
-#banner {
-    min-height: 250px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    -moz-box-shadow:  0 2px 5px 0 #333;
-    -webkit-box-shadow: 0 2px 5px 0 #333;
-    box-shadow: 0 2px 5px 0 #333;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 80%;
-}
-
 
 #intro {
     position: relative;
@@ -590,50 +532,45 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     font-size: 0.8rem;
 }
 
-#banner-sub1 { 
-  font-weight:400; 
-  color: white;
-  padding: 2rem;
-  margin:14rem 4rem;
-  float: left;
-  font-size: 1.2rem;
+.carousel-sub button { 
+    padding: 0.4rem 1rem;
+    border: solid white 0.1rem;
+    margin: 1.8rem 0; 
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+  }
+  
+  .carousel-sub button:hover {
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .carousel-sub {
+      text-align: left;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      color: white;
+  }
+  
+  .carousel-sub p {
+      font-size: 1.2rem;
+  }
+  #banner-btn-down {
+    margin-top: 6rem;
 }
-
-#banner-sub1 button { 
-  padding: 0.4rem 1rem;
-  border: solid white 0.1rem;
-  margin: 2rem 0; 
-  font-size: 1rem;
-  background: transparent;
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-
-#banner-sub1 button:hover {
-    background-color: #fff;
-    color: #000;
+.home-service-img {
+    height: 20%;
+    width: auto;
 }
 }
 
 /* Medium Layout: 1200px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  #banner-video { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
 html,body { 
   height: 100%;
   margin: 0;
@@ -716,29 +653,12 @@ h3 {
     font-size: 1rem;
 }
 
-/* Remove Chrome Input Field's Unwanted Yellow Background Color */
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
-
 .navbar {
     background-color: #fff;
 }
 .dropdown:hover .dropdown-menu{
     display:block;
   }
-#banner {
-    min-height: 250px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    -moz-box-shadow:  0 2px 5px 0 #333;
-    -webkit-box-shadow: 0 2px 5px 0 #333;
-    box-shadow: 0 2px 5px 0 #333;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 80%;
-}
 
 
 #intro {
@@ -880,50 +800,45 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     font-size: 0.8rem;
 }
 
-#banner-sub1 { 
-  font-weight:400; 
-  color: white;
-  padding: 2rem;
-  margin:14rem 4rem;
-  float: left;
-  font-size: 1.2rem;
+.carousel-sub button { 
+    padding: 0.4rem 1rem;
+    border: solid white 0.1rem;
+    margin: 2rem 0; 
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+  }
+  
+  .carousel-sub button:hover {
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .carousel-sub {
+      text-align: left;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      color: white;
+  }
+  
+  .carousel-sub p {
+      font-size: 1.2rem;
+  }
+  #banner-btn-down {
+    margin-top: 8rem;
 }
-
-#banner-sub1 button { 
-  padding: 0.4rem 1rem;
-  border: solid white 0.1rem;
-  margin: 2rem 0; 
-  font-size: 1rem;
-  background: transparent;
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-
-#banner-sub1 button:hover {
-    background-color: #fff;
-    color: #000;
+.home-service-img {
+    height: 30%;
+    width: auto;
 }
 }
 
 /* Max Layout */
 @media only screen and (min-width: 1201px) { 
-  #banner-video { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
 html,body { 
   height: 100%;
   margin: 0;
@@ -1006,29 +921,12 @@ h3 {
     font-size: 1rem;
 }
 
-/* Remove Chrome Input Field's Unwanted Yellow Background Color */
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
-
 .navbar {
     background-color: #fff;
 }
 .dropdown:hover .dropdown-menu{
     display:block;
   }
-#banner {
-    min-height: 250px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    -moz-box-shadow:  0 2px 5px 0 #333;
-    -webkit-box-shadow: 0 2px 5px 0 #333;
-    box-shadow: 0 2px 5px 0 #333;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 80%;
-}
 
 #intro {
     position: relative;
@@ -1037,8 +935,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     text-align: center;
     padding: 6rem 14rem;
 }
-
-
 
 #service {
     margin: auto;
@@ -1168,17 +1064,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     font-size: 0.8rem;
 }
 
-#banner-sub1 { 
-  font-weight:400; 
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:14rem 4rem;
-  float: left;
-  font-size: 1.2rem;
-}
-
-#banner-sub1 button { 
+.carousel-sub button { 
   padding: 0.4rem 1rem;
   border: solid white 0.1rem;
   margin: 2rem 0; 
@@ -1190,8 +1076,27 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   transition: .3s background;
 }
 
-#banner-sub1 button:hover {
+.carousel-sub button:hover {
     background-color: #fff;
     color: #000;
+}
+
+.carousel-sub {
+    text-align: left;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.carousel-sub p {
+    font-size: 1.2rem;
+}
+#banner-btn-down {
+    margin-top: 10rem;
+}
+.home-service-img {
+    height: 30%;
+    width: auto;
 }
 }

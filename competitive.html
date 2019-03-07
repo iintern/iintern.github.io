@@ -50,8 +50,8 @@ mixpanel.init("65e1639d3231b49bc665210ef38ce95c");</script>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-md-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">首页</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">首页</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -91,9 +91,10 @@ mixpanel.init("65e1639d3231b49bc665210ef38ce95c");</script>
             </div>
           </nav>
           <div id="float-code">
-                <img width="150px" height="150px" src="./image/code.png" alt="qrcode">
-              </div>
+            <img width="150px" height="150px" src="./image/code.png" alt="qrcode">
+          </div>
           <div class="contact-all">
+
             <div class="contact-all-mini" id="contact-mobile" data-toggle="modal" data-target="#contact-mobile-form">
               <i class="fas fa-comments contact-mini-icon"></i>
             </div>
@@ -123,28 +124,33 @@ mixpanel.init("65e1639d3231b49bc665210ef38ce95c");</script>
                         </div>
                     </div>
           </div>
-找不到文件！
-
-        <div class="footer">
-          <img width="15%" height="auto" src="./image/logo.png"><br><br>
-          <div class="footer-socialmedia">
-            <a href="mailto:info@iintern.com"><img class="social-icon" src="./image/msg.png"></a>
-            <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/weibo.png"></a>
-            <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities"><img class="social-icon" src="./image/zhihu.png"></a>
-            <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="./image/ins.png"></a>
-            <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd"><img class="social-icon" src="./image/wechat.png"></a>
-            </div>
-            <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+          <div id="intro">
+            <!-- <img src="./image/header-deco.png" width="48px" height="auto"> -->
+            <h1>求职竞争力小测评，你能得几分？</h1>
+            <br><br>
+            <p id="intro-text">
+                我们对接全球300多家知名企业，拥有千余名行业精英导师，并有求职顾问全程跟踪学生求职申请，对学生的兴趣、专业、发展做全面分析，VIP定制求职计划，让学生真正做到从学业到职业零距离。
+                <br><br>
+                请各位同学确保认真填写了以下求职测评表格，我们会在三个工作日内把求职竞争力测评结果、所在行业简历模版、名企面试真题、名企实习机会发送到你的微信和邮箱。
+            </p>
+            <br><br>
+            <div id="intern-apply">
+                    <div class="col-sm-12 apply-form">
+                        <form id="class-center" class="form-center apply-intern-form">
+                            <input name="applyName" class="form-control" placeholder="姓名">
+                            <input name="applyEmail" class="form-control" placeholder="邮箱">
+                            <input name="applyWechat" class="form-control" placeholder="微信">
+                            <input name="applySchool" class="form-control" placeholder="在读院校">
+                            <input name="applyMajor" class="form-control" placeholder="所学专业">
+                            <input name="applyGrade" class="form-control" placeholder="毕业时间">
+                            <input name="applyIndustry" class="form-control" placeholder="求职行业与职位">
+                            <input name="applyPast" class="form-control" placeholder="过往实习经历概述">
+                            <input name="applyNote" class="form-control" placeholder="备注，补充其他的个人背景和信息">
+                            <button id="applySubmit" type="submit" class="btn btn-primary mb-2 company-btn apply-intern-submit">提交表格</button>
+                        </form>
+                    </div>
+    
         </div>
-        <script>
-            mixpanel.track("Page View");
-            mixpanel.track("Button Click");
-            mixpanel.track("Video play");
-        </script>
-        <script src="./node_modules/waypoints/waypoints.min.js"></script>
-        <script src="./node_modules/counterup/counterup.js"></script>
+        </div>
     </body>
-    <footer>
-        <script src="./js/mobile-intern-validation.js"></script>
-    </footer>
 </html>

@@ -291,6 +291,9 @@ button:focus {
     height: 18%;
     width: auto;
 }
+#float-code {
+    display: none;
+}
 }
 
 /* Tablet Layout: 768px. */
@@ -567,6 +570,12 @@ h3 {
     height: 20%;
     width: auto;
 }
+#float-code {
+    position:fixed;
+    bottom:5%;
+    right:5%;
+    z-index: 9999;
+}
 }
 
 /* Medium Layout: 1200px. */
@@ -835,6 +844,12 @@ h3 {
     height: 30%;
     width: auto;
 }
+#float-code {
+    position:fixed;
+    bottom:5%;
+    right:5%;
+    z-index: 9999;
+}
 }
 
 /* Max Layout */
@@ -1101,8 +1116,8 @@ h3 {
 }
 #float-code {
     position:fixed;
-    bottom:0;
-    right:0;
+    bottom:5%;
+    right:5%;
     z-index: 9999;
 }
 }

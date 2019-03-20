@@ -7,7 +7,7 @@
     @media only screen and (max-width: 767px) { 
     /*----------------------SERVICE-----------------------------*/
     #service-slogan {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: #000;
         font-weight: 700;   
     }
@@ -27,12 +27,21 @@
         height: 20%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer, #service-art {
+    #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 80%; 
         margin-top: 4rem;
         margin-bottom: 6rem;
+    }
+    #service-book {
+        width: 80%;
+        text-align: left;
+        margin-top: 6rem;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        margin-bottom: 6rem;
+        margin: auto;
     }
     p {
         font-size: 0.8rem;
@@ -47,7 +56,23 @@
         padding: 0.1rem;
         font-size: 0.8rem;
     }
+    .subbanner-btn {
+        background-color: #37495B;
+        margin: 0 0 3rem 0;
+        border-color: #37495B;
+        padding: 0.4rem 1.8rem;
+        border-radius: 5rem;
+        font-size: 0.8rem;
+    }
 
+    .subbanner-btn:hover {
+        background-color: #fff;
+        color: #37495B;
+        border-color: #37495B;  
+    }
+    #service-banner {
+        margin-bottom: 3rem;
+    }
 
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -90,7 +115,7 @@
     @media only screen and (min-width: 768px) and (max-width: 991px) { 
     /*----------------------SERVICE-----------------------------*/
     #service-slogan {
-        font-size: 2.4rem;
+        font-size: 1.4rem;
         color: #000;
         font-weight: 700;   
     }
@@ -103,14 +128,22 @@
         height: 15%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer, #service-art {
+    #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 70%; 
         margin-top: 4rem;
         margin-bottom: 6rem;
     }
-
+    #service-book {
+        width: 80%;
+        text-align: left;
+        margin-top: 6rem;
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+        margin-bottom: 6rem;
+        margin: auto;
+    }
     .service-company-sub {
         color: #898989;
         font-weight: 500;
@@ -153,14 +186,31 @@
 
     #service-container {
         margin: auto 6rem;
-    }         
+    }
+    .subbanner-btn {
+        background-color: #37495B;
+        margin: 0 0 3rem 0;
+        border-color: #37495B;
+        padding: 0.4rem 1.8rem;
+        border-radius: 5rem;
+        font-size: 0.8rem;
+    }
+    
+    .subbanner-btn:hover {
+        background-color: #fff;
+        color: #37495B;
+        border-color: #37495B;  
+    }
+    .service-body {
+        font-size: 0.8rem;
+    }      
     }
     
     /* Medium Layout: 1280px. */
     @media only screen and (min-width: 992px) and (max-width: 1200px) { 
     /*----------------------SERVICE-----------------------------*/
     #service-slogan {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         color: #000;
         font-weight: 700;   
     }
@@ -173,12 +223,21 @@
         height: 20%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer, #service-art {
+    #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 70%; 
         margin-top: 4rem;
         margin-bottom: 6rem;
+    }
+    #service-book {
+        width: 80%;
+        text-align: left;
+        margin-top: 6rem;
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+        margin-bottom: 6rem;
+        margin: auto;
     }
 
     .service-company-sub {
@@ -190,7 +249,19 @@
         padding: 0.1rem 2rem;
         font-size: 0.8rem;
     }
-
+    .subbanner-btn {
+        background-color: #37495B;
+        margin: 0 0 3rem 0;
+        border-color: #37495B;
+        padding: 0.4rem 1.8rem;
+        border-radius: 5rem;
+    }
+    
+    .subbanner-btn:hover {
+        background-color: #fff;
+        color: #37495B;
+        border-color: #37495B;  
+    }
 
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -230,7 +301,7 @@
 
     /*----------------------SERVICE-----------------------------*/
     #service-slogan {
-        font-size: 2.4rem;
+        font-size: 2rem;
         color: #000;
         font-weight: 700;   
     }
@@ -243,14 +314,22 @@
         height: 20%;
         width: auto;
     }
-    #service-book, #service-background, #service-intern, #service-summer, #service-art {
+    #service-background, #service-intern, #service-summer, #service-art {
         text-align: center;
         margin: auto;
         width: 70%; 
         margin-top: 4rem;
         margin-bottom: 6rem;
     }
-
+    #service-book {
+        width: 80%;
+        text-align: left;
+        margin-top: 6rem;
+        padding-top: 8rem;
+        margin-bottom: 6rem;
+        padding-bottom: 6rem;
+        margin: auto;
+    }
     .service-company-sub {
         color: #898989;
         font-weight: 500;
@@ -259,7 +338,19 @@
     .service-company-detail {
         padding: 0.1rem 2rem;
     }
-
+    .subbanner-btn {
+        background-color: #37495B;
+        margin: 1rem 0 3rem 0;
+        border-color: #37495B;
+        padding: 0.4rem 1.8rem;
+        border-radius: 5rem;
+    }
+    
+    .subbanner-btn:hover {
+        background-color: #fff;
+        color: #37495B;
+        border-color: #37495B;  
+    }
 
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {

@@ -647,8 +647,7 @@ button:focus {
 .company-btn:hover {
     background-color: #fff;
     color: #37495B;
-    border-color: #37495B;
-    
+    border-color: #37495B;  
 }
 
 #company-contract {

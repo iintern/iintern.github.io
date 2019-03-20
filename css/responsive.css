@@ -261,39 +261,64 @@ button:focus {
 
 .carousel-sub button { 
     padding: 0.4rem 1rem;
-    border: solid white 0.1rem;
+    border: solid #DD6B6B 0.1rem;
     margin: 2rem 0; 
-    font-size: 1rem;
-    background: transparent;
+    font-size: 0.8rem;
+    background: #DD6B6B;
     color: #fff;
     border-radius: 3px; 
     cursor: pointer;
     transition: .3s background;
+    box-shadow: 2px 1px 4px #DD6B6B;
+  }
+  #banner2-btn {
+      color: #fff;
+      background-color: #37495B;
+      border-color: #37495B;
+      box-shadow: 2px 1px 4px #37495B;
   }
   
   .carousel-sub button:hover {
       background-color: #fff;
       color: #000;
+      border-color: #fff;
   }
   
   .carousel-sub {
-      text-align: left;
-      top: 50%;
-      left: 35%;
-      transform: translate(-50%, -50%);
+      text-align: center;
+      /* top: 35%; */
+      left: 60%;
+      width: 280px;
+      /* transform: translate(-50%, -50%); */
       color: white;
   }
   
-  .carousel-sub p {
-      font-size: 1.2rem;
-  }
   .home-service-img {
     height: 18%;
     width: auto;
 }
-#float-code {
-    display: none;
-}
+.carousel-inner{
+    width:800px;
+    left: 50%;
+    margin-left: -600px;
+ }
+    #float-code {
+        display: none;
+    }
+    #banner1-p {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    #banner2-p {
+        font-size: 1rem;
+        font-weight: 800;
+        color: #000;
+    }
+    #banner3-p {
+        font-size: 1.4rem;
+        font-weight: 800;
+        color: #37495B;
+    }
 }
 
 /* Tablet Layout: 768px. */
@@ -576,6 +601,9 @@ h3 {
     right:5%;
     z-index: 9999;
 }
+.web-none {
+    display: none;
+}
 }
 
 /* Medium Layout: 1200px. */
@@ -850,6 +878,9 @@ h3 {
     right:5%;
     z-index: 9999;
 }
+.web-none {
+    display: none;
+}
 }
 
 /* Max Layout */
@@ -1119,5 +1150,8 @@ h3 {
     bottom:5%;
     right:5%;
     z-index: 9999;
+}
+.web-none {
+    display: none;
 }
 }

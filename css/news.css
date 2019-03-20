@@ -53,6 +53,9 @@
     .news-hover:hover {
         background-color: #F7F7F7;
         text-decoration: none;
+    }
+    #news-banner {
+        margin-bottom: 3rem;
     }      
     }
     

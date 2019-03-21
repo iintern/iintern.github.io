@@ -36,12 +36,17 @@
     }
     #service-book {
         width: 80%;
-        text-align: left;
         margin-top: 6rem;
         padding-top: 8rem;
         padding-bottom: 2rem;
         margin-bottom: 6rem;
         margin: auto;
+    }
+    .landing-font {
+        text-align: left;
+    }
+    .landing-img {
+        text-align: center;
     }
     p {
         font-size: 0.8rem;
@@ -137,12 +142,17 @@
     }
     #service-book {
         width: 80%;
-        text-align: left;
         margin-top: 6rem;
         padding-top: 8rem;
         padding-bottom: 3rem;
         margin-bottom: 6rem;
         margin: auto;
+    }
+    .landing-font {
+        text-align: left;
+    }
+    .landing-img {
+        text-align: center;
     }
     .service-company-sub {
         color: #898989;
@@ -232,14 +242,18 @@
     }
     #service-book {
         width: 80%;
-        text-align: left;
         margin-top: 6rem;
         padding-top: 8rem;
         padding-bottom: 4rem;
         margin-bottom: 6rem;
         margin: auto;
     }
-
+    .landing-font {
+        text-align: left;
+    }
+    .landing-img {
+        text-align: center;
+    }
     .service-company-sub {
         color: #898989;
         font-weight: 500;
@@ -323,12 +337,17 @@
     }
     #service-book {
         width: 80%;
-        text-align: left;
         margin-top: 6rem;
         padding-top: 8rem;
         margin-bottom: 6rem;
         padding-bottom: 6rem;
         margin: auto;
+    }
+    .landing-font {
+        text-align: left;
+    }
+    .landing-img {
+        text-align: center;
     }
     .service-company-sub {
         color: #898989;

@@ -95,6 +95,7 @@
                     .hr-name, .hr-title, .hr-feedback {
                         color: #fff;
                         font-size: 0.7rem;
+                        padding: 1rem;
                     }
             
                     .fb-title {

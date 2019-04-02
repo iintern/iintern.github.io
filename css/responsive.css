@@ -87,7 +87,6 @@ html,body {
     height: auto;
 }
 
-
 h1 {
     font-size: 1rem;
     margin: 1.4rem 0;
@@ -297,7 +296,7 @@ button:focus {
     height: 18%;
     width: auto;
 }
-.carousel-inner{
+#home-carousel{
     width:800px;
     left: 50%;
     margin-left: -600px;

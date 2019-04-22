@@ -157,7 +157,7 @@ button:focus {
     padding: 1rem;
 }
 
-#choice {
+#choice, #service-home {
     margin: auto;
     text-align: center;
     padding: 3rem;
@@ -457,7 +457,7 @@ h3 {
     padding: 2rem;
 }
 
-#choice {
+#choice, #service-home {
     margin: auto;
     text-align: center;
     padding: 6rem;
@@ -734,7 +734,7 @@ h3 {
     padding: 3rem;
 }
 
-#choice {
+#choice, #service-home {
     margin: auto;
     text-align: center;
     padding: 6rem;
@@ -1007,7 +1007,7 @@ h3 {
     padding: 3rem;
 }
 
-#choice {
+#choice, #service-home {
     margin: auto;
     text-align: center;
     padding: 6rem;
@@ -1152,5 +1152,8 @@ h3 {
 }
 .web-none {
     display: none;
+}
+.ser-body {
+    padding: 0 4rem;
 }
 }

@@ -35,9 +35,9 @@
         margin-bottom: 6rem;
     }
     #service-book {
-        width: 80%;
+        width: 100%;
         margin-top: 6rem;
-        padding-top: 8rem;
+        padding-top: 4rem;
         padding-bottom: 2rem;
         margin-bottom: 6rem;
         margin: auto;
@@ -78,7 +78,72 @@
     #service-banner {
         margin-bottom: 3rem;
     }
+    .landing-font {
+        text-align: left;
+    }
+    .landing-img {
+        text-align: center;
+    }
 
+    #service-font {
+        padding: 0 6rem;
+    }
+    .service-navbaba {
+        margin: auto;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;  
+        
+    }
+    #service-main {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-sub {
+        padding: 1rem 2rem;
+        text-align: center;
+        margin: auto;
+        color: #000;
+    }
+    .service-sub:hover {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .service-sub.active {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .center-title {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-title {
+        font-size: 1.2rem;
+        margin: 4rem 2rem 0 2rem;
+    }
+    .apply-fp-title {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #DC9998;
+    }
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         color: #ffffff;
@@ -141,12 +206,15 @@
         margin-bottom: 6rem;
     }
     #service-book {
-        width: 80%;
+        width: 100%;
         margin-top: 6rem;
         padding-top: 8rem;
         padding-bottom: 3rem;
         margin-bottom: 6rem;
         margin: auto;
+    }
+    #raise {
+        margin-top: -14rem;
     }
     .landing-font {
         text-align: left;
@@ -164,7 +232,65 @@
         padding: 0.1rem 2rem;
         font-size: 0.8rem;
     }
-
+    #service-font {
+        padding: 0 6rem;
+    }
+    .service-navbaba {
+        margin: auto;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;  
+        
+    }
+    #service-main {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-sub {
+        padding: 1rem 2rem;
+        text-align: center;
+        margin: auto;
+        color: #000;
+    }
+    .service-sub:hover {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .service-sub.active {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .center-title {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-title {
+        font-size: 1.2rem;
+        margin: 4rem 2rem 0 2rem;
+    }
+    .apply-fp-title {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #DC9998;
+    }
 
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -241,12 +367,15 @@
         margin-bottom: 6rem;
     }
     #service-book {
-        width: 80%;
+        width: 100%;
         margin-top: 6rem;
         padding-top: 8rem;
         padding-bottom: 4rem;
         margin-bottom: 6rem;
         margin: auto;
+    }
+    #raise {
+        margin-top: -18rem;
     }
     .landing-font {
         text-align: left;
@@ -276,7 +405,65 @@
         color: #37495B;
         border-color: #37495B;  
     }
-
+    #service-font {
+        padding: 0 6rem;
+    }
+    .service-navbaba {
+        margin: auto;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;  
+        
+    }
+    #service-main {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-sub {
+        padding: 1rem 2rem;
+        text-align: center;
+        margin: auto;
+        color: #000;
+    }
+    .service-sub:hover {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .service-sub.active {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .center-title {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-title {
+        font-size: 2rem;
+        margin: 4rem 2rem 0 2rem;
+    }
+    .apply-fp-title {
+        font-size: 4rem;
+        font-weight: 900;
+        color: #DC9998;
+    }
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         color: #ffffff;
@@ -336,7 +523,7 @@
         margin-bottom: 6rem;
     }
     #service-book {
-        width: 80%;
+        width: 100%;
         margin-top: 6rem;
         padding-top: 8rem;
         margin-bottom: 6rem;
@@ -370,7 +557,68 @@
         color: #37495B;
         border-color: #37495B;  
     }
-
+    #raise {
+        margin-top: -18rem;
+    }
+    #service-font {
+        padding: 0 6rem;
+    }
+    .service-navbaba {
+        margin: auto;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;  
+        
+    }
+    #service-main {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-sub {
+        padding: 1rem 2rem;
+        text-align: center;
+        margin: auto;
+        color: #000;
+    }
+    .service-sub:hover {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .service-sub.active {
+        border-bottom: 10px solid #DD6B6B;
+        text-decoration: none;
+        color: #000;
+        line-height: 50px;
+        list-style-type: none;
+        margin: 20px 0;   
+    }
+    .center-title {
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .service-title {
+        font-size: 2rem;
+        margin: 4rem 2rem 0 2rem;
+    }
+    .apply-fp-title {
+        font-size: 4rem;
+        font-weight: 900;
+        color: #DC9998;
+    }
     /*----------------------SERVICE HANDBOOK-----------------------------*/
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         color: #ffffff;

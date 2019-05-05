@@ -126,7 +126,11 @@ button:focus {
     text-align: center;
     padding: 2rem;
 }
-
+.carouselExampleIndicators {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+}
 #intro-text {
   font-size: 0.6rem;
 }
@@ -237,10 +241,11 @@ button:focus {
 }
 
 .footer {
-    text-align: center;
+    text-align: left;
     margin: auto;
     background-color: #EDF0F3;
-    padding: 6rem 0 2rem 0;
+    padding: 10rem 2rem;
+    width: 100%;
 }
 
 .footer-socialmedia {
@@ -248,9 +253,12 @@ button:focus {
 }
 
 .social-icon {
-    margin: 3rem 1rem;
-    width: 4%;
+    margin: 0rem 1rem;
+    width: 7%;
     height: auto;
+}
+.footer-title {
+    margin-top: 5rem;
 }
 
 .footer-note {
@@ -538,10 +546,11 @@ h3 {
 }
 
 .footer {
-    text-align: center;
+    text-align: left;
     margin: auto;
     background-color: #EDF0F3;
-    padding: 6rem 0 2rem 0;
+    padding: 10rem 2rem;
+    width: 100%;
 }
 
 .footer-socialmedia {
@@ -549,10 +558,14 @@ h3 {
 }
 
 .social-icon {
-    margin: 3rem 1rem;
-    width: 2.5%;
+    margin: 0rem 0.5rem;
+    width: 7%;
     height: auto;
 }
+.footer-title {
+    margin-top: 0;
+}
+
 
 .footer-note {
     color: #37495B;
@@ -815,10 +828,11 @@ h3 {
 }
 
 .footer {
-    text-align: center;
+    text-align: left;
     margin: auto;
     background-color: #EDF0F3;
-    padding: 6rem 0 2rem 0;
+    padding: 10rem 2rem;
+    width: 100%;
 }
 
 .footer-socialmedia {
@@ -826,9 +840,12 @@ h3 {
 }
 
 .social-icon {
-    margin: 3rem 1rem;
-    width: 1.6%;
+    margin: 0rem 1rem;
+    width: 8%;
     height: auto;
+}
+.footer-title {
+    margin-top: 0;
 }
 
 .footer-note {
@@ -1088,10 +1105,11 @@ h3 {
 }
 
 .footer {
-    text-align: center;
+    text-align: left;
     margin: auto;
     background-color: #EDF0F3;
-    padding: 6rem 0 2rem 0;
+    padding: 10rem 2rem;
+    width: 100%;
 }
 
 .footer-socialmedia {
@@ -1099,8 +1117,8 @@ h3 {
 }
 
 .social-icon {
-    margin: 3rem 1rem;
-    width: 1.6%;
+    margin: 0 1rem;
+    width: 8%;
     height: auto;
 }
 
@@ -1155,5 +1173,8 @@ h3 {
 }
 .ser-body {
     padding: 0 4rem;
+}
+.footer-title {
+    margin-top: 0;
 }
 }

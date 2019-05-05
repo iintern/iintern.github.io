@@ -31,6 +31,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
   <script src="js/main.js"></script>
+  <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script data-require="bootstrap@3.1.1" data-semver="3.1.1" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
   <link href="css/responsive.css" rel="stylesheet">
   <link href="css/case.css" rel="stylesheet">
   <link href="css/company.css" rel="stylesheet">
@@ -245,8 +248,8 @@
           10余年从业经验的名企导师将与你进行一对一咨询。导师将根据你的过往背景和兴趣挖掘潜力与优势，对简历、求职信等材料逐一润色，大概率提高简历的专业性和竞争力，助你取得面试机会。
         </p>
         <br>
-        <a id="contact-btn" href="./service.html#menu1">
-          <button type="submit" onclick="window.location.href='./service.html#menu1'" class="btn btn-primary mb-2 subbanner-btn">预约名企导师</button>
+        <a id="contact-btn1">
+          <button type="submit" class="btn btn-primary mb-2 subbanner-btn">预约名企导师</button>
         </a>
       </div>
       <div class="col-sm-6 order-first order-sm-last landing-img">
@@ -264,8 +267,8 @@
           我们针对全球大学生推出涵盖各行各业的实习大师课与配套实习内推机会，从深受业内资深HR认可的职前准备、面试技巧、企业实战等多方面助你提高求职竞争力，大概率提升斩获Offer的几率。
         </p>
         <br>
-        <a id="contact-btn" href="./service.html#menu2">
-          <button type="submit" onclick="window.location.href='./service.html'" class="btn btn-primary mb-2 subbanner-btn">定制冲刺课程</button>
+        <a id="contact-btn2">
+          <button type="submit" class="btn btn-primary mb-2 subbanner-btn">定制冲刺课程</button>
         </a>
       </div>
     </div><br><br><br>
@@ -277,7 +280,7 @@
           我们与全球500强企业及创业独角兽公司达成长期合作，简历直达公司HR及高管，超高录取率。通过完成实习项目，提高简历含金量，建立精品人脉圈，可以让你从一众申请者中脱颖而出，离心仪的工作机会更进一步。
         </p>
         <br>
-        <a id="contact-btn" href="#intern-apply">
+        <a id="contact-btn3" href="#intern-apply">
           <button type="submit" onclick="window.location.href='./service.html'" class="btn btn-primary mb-2 subbanner-btn">申请实习直推</button>
         </a>
       </div>
@@ -456,20 +459,42 @@
   </div>
 
   <div class="footer">
-    <img width="15%" height="auto" src="./image/logo.png"><br><br>
-    <div class="footer-socialmedia">
-      <a href="mailto:info@iintern.com"><img class="social-icon" src="./image/msg.png"></a>
-      <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/weibo.png"></a>
-      <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities"><img class="social-icon" src="./image/zhihu.png"></a>
-      <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="./image/ins.png"></a>
-      <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd"><img
-          class="social-icon" src="./image/wechat.png"></a>
+      <div class="row">
+        <div class="col-sm-4">
+            <img width="40%" height="auto" src="./image/logo.png"><br><br><br>
+            <p class="footer-note">Copyright © 2017-2019 I-intern, LLC.  <br>All rights reserved.</p>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="footer-title">公司地址</h2> <br><br>
+          <p class="footer-note">硅谷：175 Forest Ave, Palo Alto, CA <br>
+              旧金山：475 Sansome St, San Francisco, CA <br>
+              上海：1515 Nanjing W Rd, Tower 2, Jing’An, Shanghai</p> <br>
+        </div>
+        <div class="col-sm-4">
+            <h2 class="footer-title">关注我们</h2> <br><br>
+            <div class="footer-socialmedia">
+                <a href="mailto:info@iintern.com"><img class="social-icon" src="./image/msg.png"></a>
+                <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/weibo.png"></a>
+                <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities"><img class="social-icon" src="./image/zhihu.png"></a>
+                <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="./image/ins.png"></a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd"><img
+                    class="social-icon" src="./image/wechat.png"></a>
+              </div>
+      </div>
     </div>
-    <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+
   </div>
   <script src="./node_modules/waypoints/waypoints.min.js"></script>
   <script src="./node_modules/counterup/counterup.js"></script>
 </body>
+<script>
+  $("#contact-btn1").click(function() {
+    $('service.html#service-main li:eq(0) a').tab('show');
+  }),
+  $("#contact-btn2").click(function() {
+    $('service.html#service-main li:eq(1) a').tab('show');
+  })
+</script>
 <footer>
   <script src="./js/mobile-intern-validation.js"></script>
 </footer>

@@ -179,6 +179,9 @@
     #v-pills-tab {
         padding-bottom: 2rem;
     }
+    #falcon-intro {
+        text-align: center;
+    }
     }
     
     /* Tablet Layout: 768px. */
@@ -339,7 +342,10 @@
     }
     .service-body {
         font-size: 0.8rem;
-    }      
+    } 
+    #falcon-intro {
+        text-align: center;
+    }     
     }
     
     /* Medium Layout: 1280px. */
@@ -494,7 +500,10 @@
 
     #service-container {
         margin: auto 6rem;
-    }   
+    }  
+    #falcon-intro {
+        text-align: center;
+    } 
     }
     
     /* Max Layout */
@@ -649,5 +658,8 @@
 
     #service-container {
         margin: auto 6rem;
+    }
+    #falcon-intro {
+        text-align: center;
     }
     }

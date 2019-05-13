@@ -5,6 +5,31 @@ var pauseButton = document.querySelector("#polina button");
 
 // ------------scroll smooth
 $(document).ready(function(){
+  let url = location.href.replace(/\/$/, "");
+   
+  if (location.hash) {
+    const hash = url.split("#");
+    $('#myTab a[href="#'+hash[1]+'"]').tab("show");
+    url = location.href.replace(/\/#/, "#");
+    history.replaceState(null, null, url);
+    setTimeout(() => {
+      $(window).scrollTop(0);
+    }, 400);
+  } 
+   
+  $('a[data-toggle="tab"]').on("click", function() {
+    let newUrl;
+    const hash = $(this).attr("href");
+    if(hash == "#menu1") {
+      newUrl = url.split("#")[0];
+    } else {
+      newUrl = url.split("#")[0] + hash;
+    }
+    newUrl += "/";
+    history.replaceState(null, null, newUrl);
+  });
+
+
   $('ul.navbar-nav li.dropdown').hover(function() {
     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
   }, function() {

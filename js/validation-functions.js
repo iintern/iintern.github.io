@@ -13,7 +13,7 @@ $(document).ready(function() {
                     }
                 }
             },
-            documentNote: {
+            documentComment: {
                 message: 'Address is not valid',
                 validators: {
                     notEmpty: {

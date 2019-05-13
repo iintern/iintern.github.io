@@ -18,19 +18,15 @@
     <title>I-internCareer | 产品服务</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/case.css" rel="stylesheet">
     <link href="css/company.css" rel="stylesheet">
@@ -38,10 +34,8 @@
     <link href="css/intern.css" rel="stylesheet">
     <link href="css/news.css" rel="stylesheet">
     <link href="css/service.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -146,17 +140,29 @@
         </div>
     </div>
     <div id="tabs-wrapper">
-        <ul class="nav nav-tabs nav-justified" id="service-main">
-            <li class="service-navbaba"><a data-toggle="tab" href="#menu1" class="active service-sub">职前提升</a></li>
-            <li class="service-navbaba"><a data-toggle="tab" href="#menu2" class="service-sub">大师课程</a></li>
-            <li class="service-navbaba"><a data-toggle="tab" href="#menu3" class="service-sub">实习直推</a></li>
-            <li class="service-navbaba"><a data-toggle="tab" href="#menu4" class="service-sub">猎鹰计划</a></li>
-            <li class="service-navbaba"><a data-toggle="tab" href="#menu5" class="service-sub">艺术游学</a></li>
-            <li class="service-navbaba"><a data-toggle="tab" href="#menu6" class="service-sub">科创游学</a></li>
+        <ul class="nav nav-tabs nav-justified" id="service-main" role="tablist">
+            <li class="service-navbaba">
+                <a data-toggle="tab" href="#menu1" id="menu1-tab" role="tab" aria-controls="menu1" aria-selected="true" class="active service-sub">职前提升</a>
+            </li>
+            <li class="service-navbaba">
+                <a data-toggle="tab" href="#menu2" id="manu2-tab" role="tab" aria-controls="menu2" aria-selected="false" class="service-sub">大师课程</a>
+            </li>
+            <li class="service-navbaba">
+                <a data-toggle="tab" href="#menu3" id="manu3-tab" role="tab" aria-controls="menu3" aria-selected="false" class="service-sub">实习直推</a>
+            </li>
+            <li class="service-navbaba">
+                <a data-toggle="tab" href="#menu4" id="manu4-tab" role="tab" aria-controls="menu4" aria-selected="false" class="service-sub">猎鹰计划</a>
+            </li>
+            <li class="service-navbaba">
+                <a data-toggle="tab" href="#menu5" id="manu5-tab" role="tab" aria-controls="menu5" aria-selected="false" class="service-sub">艺术游学</a>
+            </li>
+            <li class="service-navbaba">
+                <a data-toggle="tab" href="#menu6" id="manu6-tab" role="tab" aria-controls="menu6" aria-selected="false" class="service-sub">科创游学</a>
+            </li>
         </ul>
 
         <div class="tab-content">
-            <div id="menu1" class="tab-pane active">
+            <div id="menu1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="menu1-tab">
                 <div class="center-title">
                     <h3 class="service-title">职前提升</h3>
                 </div>
@@ -276,7 +282,7 @@
                     </div>
                 </div>
             </div>
-            <div id="menu2" class="tab-pane fade">
+            <div id="menu2" class="tab-pane fade" role="tabpanel" aria-labelledby="menu2-tab">
                 <div class="center-title">
                     <h3 class="service-title">大师课程</h3>
                 </div>
@@ -380,7 +386,8 @@
                                                 <br><br> 课程强调“60天全真实习实战+全程线上课程跟踪+后续导师1对1咨询”的模式，重视导师一对一全真工作环境真实工作案例。 通过本课程的学习，可以让你全面了解市场行业情况，工作内容及职业发展前景。了解行业应聘流程及筛选标准。凝结导师团队在市场行业求职时的准备和招聘经验，为同学们提供最权威和最实战的市场行业求职冲刺指导。
                                                 <br><br> 市场课程划分为快消/品牌管理/SEO等几个板块，学员可针对其中任一板块进行强化训练，课程将覆盖：
                                                 <br><br> - 行业发展概况<br> - 行业业务介绍及职位职责介绍<br> - 代表性企业各自特色及职业发展前景<br> - 行业网上申请流程介绍<br>                                                -
-                                                行业面试/笔试流程介绍<br> - 学员职业发展预期与公司匹配分析<br>
+                                                行业面试/笔试流程介绍
+                                                <br> - 学员职业发展预期与公司匹配分析<br>
                                             </p><br><br>
                                             <h2>导师介绍</h2><br><br>
                                             <p>我们的导师均任职于全球五百强及各类顶尖企业，其中包括：
@@ -420,7 +427,8 @@
                                             <h2>课程亮点</h2><br><br>
                                             <p>
                                                 我们的影响力:<br><br> - 100+顶级合作企业<br> - 1000+直推学员offer<br> - 50+顶级硅谷公司导师<br> -
-                                                200+北美合作校区<br> - $100,000+学员平均薪资<br> - $200,000+社交媒体覆盖人数<br>
+                                                200+北美合作校区
+                                                <br> - $100,000+学员平均薪资<br> - $200,000+社交媒体覆盖人数<br>
                                             </p><br><br>
                                             <h2>直通企业</h2><br><br>
 
@@ -476,7 +484,8 @@
                                             <h2>课程亮点</h2><br><br>
                                             <p>
                                                 我们的影响力:<br><br> - 100+顶级合作企业<br> - 1000+直推学员offer<br> - 50+顶级硅谷公司导师<br> -
-                                                200+北美合作校区<br> - $100,000+学员平均薪资<br> - $200,000+社交媒体覆盖人数<br>
+                                                200+北美合作校区
+                                                <br> - $100,000+学员平均薪资<br> - $200,000+社交媒体覆盖人数<br>
                                             </p><br><br>
                                             <h2>直通企业</h2><br><br>
 
@@ -524,7 +533,7 @@
                                                 设计师的核心竞争力是精准地切中需求，并且有效地输出恰当的设计。真正好的设计是赋予产品灵魂，而不是设计本身。而作为一名合格的设计师，职业技能的学习，就是熟能生巧的过程。对于UIUX和平面设计的课程也是一样，只有“充实的理论讲解与大量的实践代练”相结合的课程，才能让学员更高效、更彻底的掌握设计这门职业技能。
                                                 <br><br> 课程从工作真实案例出发，紧扣行业需求进行的案例设计，通过实战中学会各类软件技能，并能让你深入了解设计行业，掌握设计技能和设计的灵魂。设计课程主要囊括：
                                                 <br><br> - 设计概念与思路精讲<br> - 设计师面试职能培训<br> - 专项作品集打磨与提升<br> - 设计师必备软件工具逐一突破<br>                                                -
-                                                 - 设计基础知识梳理<br>
+                                                - 设计基础知识梳理<br>
                                             </p><br><br>
                                             <h2>导师介绍</h2><br><br>
                                             <p>我们的导师均毕业于世界顶尖设计学府，并深耕设计行业数年，其中包含了交互设计、平面设计、建筑设计、景观设计、室内设计、灯光设计等热门就业领域，致力于为广大设计学子带来最全面专业的提升课程：
@@ -540,7 +549,7 @@
                 </div>
 
             </div>
-            <div id="menu3" class="tab-pane fade">
+            <div id="menu3" class="tab-pane fade" role="tabpanel" aria-labelledby="menu3-tab">
                 <div class="center-title">
                     <h3 class="service-title">实习直推</h3>
                 </div>
@@ -601,7 +610,7 @@
                     <br>
                     <br>
                 </div>
-                <div id="intern-offer">
+                <!-- <div id="intern-offer">
                     <p style="color:#fff;">迄今为止，我们已经帮助上千名学生斩获名企OFFER！<br> 以下为部分学员2019申请季OFFER展示：
                     </p><br><br>
                     <div id="exampleSlider">
@@ -643,20 +652,17 @@
                         </div>
                     </div>
 
-                    <!-- Include jQuery -->
                     <script src="js/jquery-2.2.4.min.js"></script>
 
-                    <!-- Include Multislider -->
                     <script src="js/multislider.min.js"></script>
 
-                    <!-- Initialize element with Multislider -->
                     <script>
                         $('#exampleSlider').multislider({
                             interval: 5000,
                             slideAll: false
                         });
                     </script>
-                </div>
+                </div> -->
                 <div id="intern-apply">
                     <div id="apply-container">
                         <div class="row">
@@ -683,7 +689,7 @@
                     </div>
                 </div>
             </div>
-            <div id="menu4" class="tab-pane fade">
+            <div id="menu4" class="tab-pane fade" role="tabpanel" aria-labelledby="menu4-tab">
                 <div class="center-title">
                     <h3 class="service-title">猎鹰计划</h3>
                 </div><br><br><br>
@@ -748,7 +754,7 @@
                     <img width="80%" height="auto" src="./image/fp4.png" alt="falcon plan students">
                 </div><br><br><br><br><br>
             </div>
-            <div id="menu5" class="tab-pane fade">
+            <div id="menu5" class="tab-pane fade" role="tabpanel" aria-labelledby="menu5-tab">
                 <div class="center-title">
                     <h3 class="service-title">艺术游学</h3>
                 </div>
@@ -825,7 +831,7 @@
                     </div>
                 </div>
             </div>
-            <div id="menu6" class="tab-pane fade">
+            <div id="menu6" class="tab-pane fade" role="tabpanel" aria-labelledby="menu6-tab">
                 <div class="center-title">
                     <h3 class="service-title">科创游学</h3>
                 </div>
@@ -885,11 +891,14 @@
         </div>
 
     </div>
+    <script src="./node_modules/waypoints/waypoints.min.js"></script>
+    <script src="./node_modules/counterup/counterup.js"></script>
 </body>
 
 <footer>
     <script src="./js/validation-functions.js"></script>
     <script src="./js/mobile-intern-validation.js"></script>
+    <script src="./js/intern-validation.js"></script>
 </footer>
 
 </html>

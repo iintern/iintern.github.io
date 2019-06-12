@@ -55,7 +55,7 @@
           <a class="nav-link" href="./index.html">首页</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="./service.html">私人定制</a>
+            <a class="nav-link" href="#">私人定制</a>
           </li>
         <li class="nav-item">
           <a class="nav-link" href="./news.html">实习资讯</a>
@@ -134,7 +134,16 @@
         </div>
     </div>
 </div>
-
+<script>
+$(window).on('load', () => {
+  let iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+  if (iOS)
+    $('[role="tablist"] .nav-link').each((i,e) => {
+      if (!$(e).attr('href'))
+        $(e).attr('href', $(e).data('target'));
+    })
+})
+</script>
 <div id="wrapper">
     <ul class="nav nav-mytabs" id="myTab" role="tablist">
         <li class="nav-item">

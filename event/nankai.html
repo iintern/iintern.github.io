@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>I-internCareer | 一站式实习平台</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+    <script src="../js/main.js"></script>
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="../css/case.css" rel="stylesheet">
+    <link href="../css/company.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet">
+    <link href="../css/intern.css" rel="stylesheet">
+    <link href="../css/news.css" rel="stylesheet">
+    <link href="../css/service.css" rel="stylesheet">
+    <link href="../css/nankai.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../image/logo.png" width="120" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../ser.html">私人定制</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../news.html">实习资讯</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../company.html">企业入口</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../case.html">学员故事</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../contact.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        联系我们
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../contact.html#contact-about">关于我们</a>
+                        <a class="dropdown-item" href="../contact.html#contact-join">加入我们</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <a href="#">CN</a> / <a href="http://iccg.us">EN</a>
+            </div>
+        </div>
+    </nav>
+    <div id="float-code">
+        <img width="150px" height="150px" src="../image/code.png" alt="qrcode">
+    </div>
+    <div class="contact-all">
+        <div class="contact-all-mini" id="contact-mobile" data-toggle="modal" data-target="#contact-mobile-form">
+            <i class="fas fa-comments contact-mini-icon"></i>
+        </div>
+        <div class="modal fade" id="contact-mobile-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">联系求职顾问</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="apply-form">
+                        <h3 id="apply-title">从这里，<br>开启你的实习定制之旅</h3>
+                        <p id="apply-subtitle">请填写精确完整的信息，<br>便于我们的求职顾问联系到你</p><br>
+                        <form class="form-center mobile-apply">
+                            <input name="mobileName" class="form-control" placeholder="姓名">
+                            <input name="mobileEmail" class="form-control" placeholder="邮箱">
+                            <input name="mobileWechat" class="form-control" placeholder="微信">
+                            <input name="mobileSchool" class="form-control" placeholder="院校">
+                            <input name="mobileMajor" class="form-control" placeholder="专业">
+                            <input name="mobileNote" class="form-control" placeholder="备注">
+                            <button type="submit" class="btn btn-primary mb-2 company-btn mobile-submit">提交表格</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img width="100%" height="auto" src="../image/nankai/1.png" alt="nankai university banner">
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <br><br>
+                <h1 class="nankai-title">南开大学游学参访之旅回顾 <br>求索，寻真。</h1>
+                <p>转眼间，为期两周的南开大学美国游学参访之旅圆满结束了。下面，请大家跟着I-INTERN的步伐，一起来看看南开大学师生的旅程回顾吧！</p>
+            </div>
+            <div class="col-sm-6"> </div>
+        </div> <br><br><br>
+    </section>
+    <div class="dark-bg">
+        <h1 class="nankai-title" style="color: #fff;">抵达篇</h1>
+        <p style="color: #fff;">经过十余小时的飞行，南开大学师生团体抵达旧金山国际机场（SFO），游学参访之旅正式拉开帷幕。I-INTERN的接机团队带领南开大学团体在旧金山机场合影留念，并乘坐豪华巴士前往入住的海景酒店。</p>
+        <br>
+        <img width="100%" height="auto" src="../image/nankai/2.png" alt="Nankai University Arrival">
+        <br><br>
+        <h1 class="nankai-title" style="color: #fff;">学术篇</h1>
+        <p style="color: #fff;">南开大学师生团体分别在斯坦福大学、加州大学伯克利分校接受了来自学校知名教授的课程。</p>
+        <br>
+        <img width="100%" height="auto" src="../image/nankai/3.png" alt="Nankai University Study">
+    </div>
+    <div class="purple-bg">
+        <h1 class="nankai-title" style="color:#fff;">参访篇</h1> <br><br>
+        <div id="carouselNKIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselNKIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="7"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="8"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="9"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="10"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="11"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="12"></li>
+                <li data-target="#carouselNKIndicators" data-slide-to="13"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img width="80%" height="auto" src="../image/nankai/4-1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-4.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-5.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-6.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-7.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-8.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-9.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-10.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-11.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-12.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-13.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img width="80%" height="auto" src="../image/nankai/4-14.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselNKIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselNKIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="white-bg">
+        <h1 class="nankai-title" style="color:#000;">商赛篇</h1> <br><br>
+        <img width="100%" height="auto" src="../image/nankai/5.png" alt="Nankai University BEP">
+        <br><br><br><br>
+        <h1 class="nankai-title" style="color:#000;">游览篇</h1> <br><br>
+        <img width="100%" height="auto" src="../image/nankai/6.png" alt="Nankai University Travel">
+        <br><br><br><br>
+    </div>
+    <div class="purple-bg">    
+        <h1 class="nankai-title" style="color:#fff;">反馈篇</h1> <br><br>
+        <p style="color: #fff;">两周的游学参访之旅结束后，大家意犹未尽却都收获颇丰，回国后第一时间分享了自己的旅途心得与感悟，以下是部分同学反馈节选：</p>
+       <br>
+        <div class="bep-feedback center-container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active container">
+                        <p class="hr-feedback">漫步在去工业化的海岸，街道上走一天白鞋底都不会脏，真的可以没有尘土。这趟游学之旅让我感受到了几十年的产业转移，价值链顶层的位置让这里成为了梦想成功、享受生活的“New Heaven”。</p>
+                        
+                        <div class="feedback-person">
+                            <p class="feedback-name">—— Brain</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item container">
+                        <p class="hr-feedback">一直很喜欢小动物，这次切身体会到了加州养狗数量是儿童的1.25倍，商业大赛也是选择做了宠物相关的平台，学到了很多，希望之后可以通过自己的力量为这个世界的小动物们做些什么。</p>
+                        
+                        <div class="feedback-person">
+                            <p class="feedback-name">—— Jessica</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item container">
+                        <p class="hr-feedback">参访了很多硅谷互联网企业巨头和独角兽科技企业，华人在湾区确实是不可小觑的力量，愿祖国的跨国公司可以逐渐光大。</p>
+                        
+                        <div class="feedback-person">
+                            <p class="feedback-name">—— Kay</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item container">
+                        <p class="hr-feedback">在美国期间最宝贵的经历还是商业竞赛遇到了大家，感恩每一位导师，以及所有默默付出的工作人员，再大的力折不断一把筷子，团队合作的魅力在这次商赛中淋漓尽致！
+                        </p>
+                        
+                        <div class="feedback-person">
+                            <p class="feedback-name">—— Rainie</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item container">
+                        <p class="hr-feedback">十多天的日子转眼就过去了，谢谢我的导师们对我的指导，感恩这次的相遇，愿我们乘着风浪，圆满前行！希望我今后也可以像你们一样，热情坚毅、有魄力和责任心。</p>
+                        
+                        <div class="feedback-person">
+                            <p class="feedback-name">—— Jane</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item container">
+                        <p class="hr-feedback">除了商赛和参访之外，我对美国的风土人情也有了新的认知和了解，那种不拘泥于形式、自由的、对生活充满憧憬的Lifestyle让我印象很深。</p>
+                        
+                        <div class="feedback-person">
+                            <p class="feedback-name">—— Ryan</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div> <br><br>
+
+
+
+    </div>
+
+    <div class="footer">
+            <div class="row">
+              <div class="col-sm-4">
+                <img width="40%" height="auto" src="../image/logo.png"><br><br><br>
+                <p class="footer-note">Copyright © 2017-2019 I-intern, LLC. <br>All rights reserved.</p>
+              </div>
+              <div class="col-sm-4">
+                <h2 class="footer-title">公司地址</h2> <br><br>
+                <p class="footer-note">硅谷：175 Forest Ave, Palo Alto, CA <br> 旧金山：475 Sansome St, San Francisco, CA <br> 上海：1515 Nanjing
+                  W Rd, Tower 2, Jing’An, Shanghai</p> <br>
+              </div>
+              <div class="col-sm-4">
+                <h2 class="footer-title">关注我们</h2> <br><br>
+                <div class="footer-socialmedia">
+                  <a href="mailto:info@iintern.com"><img class="social-icon" src="../image/msg.png"></a>
+                  <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="../image/weibo.png"></a>
+                  <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities"><img class="social-icon" src="../image/zhihu.png"></a>
+                  <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="../image/ins.png"></a>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd"><img
+                      class="social-icon" src="../image/wechat.png"></a>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+          <script src="../node_modules/waypoints/waypoints.min.js"></script>
+          <script src="../node_modules/counterup/counterup.js"></script>
+        </body>
+        <footer>
+        
+          <script src="../js/mobile-intern-validation.js"></script>
+        </footer>
+        
+        </html>

@@ -1,0 +1,127 @@
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .dark-bg {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 3rem 2rem; 
+    }
+    .nankai-title {
+        font-size: 1.2rem;
+    }
+    .purple-bg {
+        background-color: #341647;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 3rem 2rem; 
+    }
+    .white-bg {
+        background-color: #fff;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 3rem 2rem; 
+    }
+    .bep-feedback {
+        background-color: #2D0D42;
+        padding: 2rem 2rem 0 2rem;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .dark-bg {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .nankai-title {
+        font-size: 2rem;
+    }
+    .purple-bg {
+        background-color: #341647;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .white-bg {
+        background-color: #fff;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .bep-feedback {
+        background-color: #2D0D42;
+        padding: 3rem 4rem 0 4rem;
+    }
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .dark-bg {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .nankai-title {
+        font-size: 2rem;
+    }
+    .purple-bg {
+        background-color: #341647;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .white-bg {
+        background-color: #fff;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .bep-feedback {
+        background-color: #2D0D42;
+        padding: 3rem 4rem 0 4rem;
+    }
+}
+
+/* Max Layout */
+@media only screen and (min-width: 1201px) { 
+    .dark-bg {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .nankai-title {
+        font-size: 2rem;
+    }
+    .purple-bg {
+        background-color: #341647;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .white-bg {
+        background-color: #fff;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 4rem 8rem; 
+    }
+    .bep-feedback {
+        background-color: #2D0D42;
+        padding: 3rem 5rem 0 5rem;
+    }
+}

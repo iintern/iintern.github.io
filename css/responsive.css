@@ -500,37 +500,7 @@ h3 {
     font-size: 0.8rem;
 }
 
-.carousel-sub button { 
-    padding: 0.4rem 1rem;
-    border: solid white 0.1rem;
-    margin: 1.8rem 0; 
-    font-size: 1rem;
-    background: transparent;
-    color: #fff;
-    border-radius: 3px; 
-    cursor: pointer;
-    transition: .3s background;
-  }
   
-  .carousel-sub button:hover {
-      background-color: #fff;
-      color: #000;
-  }
-  
-  .carousel-sub {
-      text-align: left;
-      top: 50%;
-      left: 35%;
-      transform: translate(-50%, -50%);
-      color: white;
-  }
-  
-  .carousel-sub p {
-      font-size: 1.2rem;
-  }
-  #banner-btn-down {
-    margin-top: 6rem;
-}
 .home-service-img {
     height: 20%;
     width: auto;
@@ -789,37 +759,6 @@ h3 {
     font-size: 0.8rem;
 }
 
-.carousel-sub button { 
-    padding: 0.4rem 1rem;
-    border: solid white 0.1rem;
-    margin: 2rem 0; 
-    font-size: 1rem;
-    background: transparent;
-    color: #fff;
-    border-radius: 3px; 
-    cursor: pointer;
-    transition: .3s background;
-  }
-  
-  .carousel-sub button:hover {
-      background-color: #fff;
-      color: #000;
-  }
-  
-  .carousel-sub {
-      text-align: left;
-      top: 50%;
-      left: 35%;
-      transform: translate(-50%, -50%);
-      color: white;
-  }
-  
-  .carousel-sub p {
-      font-size: 1.2rem;
-  }
-  #banner-btn-down {
-    margin-top: 8rem;
-}
 .home-service-img {
     height: 30%;
     width: auto;
@@ -1004,6 +943,7 @@ h3 {
     color: #37495B;
     background-color: #fff;
     border-color: #37495B;
+    border-radius: 50px;
 }
 .btn-navy:hover {
     color: #fff;
@@ -1079,37 +1019,6 @@ h3 {
     font-size: 0.8rem;
 }
 
-.carousel-sub button { 
-  padding: 0.4rem 1rem;
-  border: solid white 0.1rem;
-  margin: 2rem 0; 
-  font-size: 1rem;
-  background: transparent;
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-
-.carousel-sub button:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-.carousel-sub {
-    text-align: left;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.carousel-sub p {
-    font-size: 1.2rem;
-}
-#banner-btn-down {
-    margin-top: 10rem;
-}
 .home-service-img {
     height: 30%;
     width: auto;

@@ -914,9 +914,15 @@ h3 {
     padding: 1rem;
 }
 
-#choice, #service-home {
+#service-home {
     margin: auto;
     text-align: left;
+    padding: 3rem 6rem;
+}
+
+#choice {
+    margin: auto;
+    text-align: center;
     padding: 3rem 6rem;
 }
 

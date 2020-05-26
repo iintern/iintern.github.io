@@ -1,8 +1,3 @@
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
-
-}
-
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
 html,body { 
@@ -19,35 +14,8 @@ html,body {
     border-radius: 50%;
 }
 
-.contact-all-mini img {
-    display: none;
-    position: absolute;
-    left: -200px;
-    width: 200px;
-    height: 200px;
-}
-#phone-dely #delysia {
-    visibility: hidden;
-    width: 180px;
-    position: absolute;
-    z-index: 1;
-    right: 105%;
-    bottom: 30%;
-    background-color: #37495B;
-    color: #ffffff;
-    font-size: 1rem;
-    padding: 16px;
-}
-
 #phone-dely:hover #delysia {
     visibility: visible;
-}
-
-.contact-all-mini {
-    display: none;
-    float: right;
-    clear: right;
-    /* border-bottom: 0.5px solid #9b9b9b; */
 }
 
 
@@ -57,9 +25,13 @@ html,body {
     font-size: 1.2rem;
     height: auto;
 }
-
-.contact-mini-icon:hover {
-    color: #DD6B6B;
+#service-book {
+    width: 100%;
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 6rem;
+    margin: auto;
 }
 
 #contact-mobile {
@@ -77,15 +49,6 @@ html,body {
 #contact-mobile:hover {
     background-color: #fff;
 }
-#wechat-platform {
-    display: block;    
-}
-#contact-mini-weixin {
-    display: block;
-    border-radius: 0.8em;
-    max-width: 100%;
-    height: auto;
-}
 
 h1 {
     font-size: 1rem;
@@ -95,7 +58,7 @@ h1 {
 h2 {
     font-size: 1rem;
     color: #37495B;
-    margin: 1.5rem 0 0 0;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 h3 {
@@ -118,30 +81,36 @@ h3 {
 button:focus {
     outline: none;
 }
-
-#intro {
-    position: relative;
-    background-color: white;
-    margin: auto;
-    text-align: center;
-    padding: 2rem;
-}
-.carouselExampleIndicators {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
--moz-box-sizing: border-box;    /* Firefox, other Gecko */
-box-sizing: border-box;
-}
-#intro-text {
-  font-size: 0.6rem;
+.carousel {
+    background:#007aeb;
+  }
+  
+  /*
+  Forces image to be 100% width and not max width of 100%
+  */
+  .carousel-item .img-fluid {
+    width:100%;
+  }
+  
+  /* 
+  anchors are inline so you need ot make them block to go full width
+  */
+  .carousel-item a {
+    display: block;
+    width:100%;
+  }
+  #float-code {
+    display: none;
 }
 #service {
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding: 0 3rem;
 }
 
 .devide-line {
-    width: 50%;
+    width: 30%;
+    margin-bottom: -1.5rem;
 }
 
 .service-img {
@@ -152,7 +121,7 @@ box-sizing: border-box;
 .service-detail {
     color: #898989;
     font-size: 0.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.2rem;
 }
 
 .jump-service {
@@ -163,7 +132,7 @@ box-sizing: border-box;
 
 #choice, #service-home {
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding: 3rem;
 }
 
@@ -244,21 +213,12 @@ box-sizing: border-box;
     text-align: left;
     margin: auto;
     background-color: #EDF0F3;
-    padding: 10rem 2rem;
+    padding: 4rem 2rem;
     width: 100%;
 }
 
-.footer-socialmedia {
-    display: inline;
-}
-
-.social-icon {
-    margin: 0rem 1rem;
-    width: 7%;
-    height: auto;
-}
 .footer-title {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .footer-note {
@@ -266,58 +226,27 @@ box-sizing: border-box;
     font-size: 0.6rem;
 }
 
-.carousel-sub button { 
-    padding: 0.4rem 1rem;
-    border: solid #DD6B6B 0.1rem;
-    margin: 2rem 0; 
-    font-size: 0.8rem;
-    background: #DD6B6B;
-    color: #fff;
-    border-radius: 3px; 
-    cursor: pointer;
-    transition: .3s background;
-  }
-  
-  .carousel-sub button:hover {
-      background-color: #fff;
-      color: #000;
-      border-color: #fff;
-  }
-  
-  .carousel-sub {
-      text-align: center;
-      /* top: 35%; */
-      left: 60%;
-      width: 280px;
-      /* transform: translate(-50%, -50%); */
-      color: white;
-  }
-  
   .home-service-img {
     height: 18%;
     width: auto;
 }
-#home-carousel{
-    width:800px;
-    left: 50%;
-    margin-left: -600px;
- }
-    #float-code {
-        display: none;
-    }
-    #banner1-p {
-        font-size: 1rem;
-        font-weight: 600;
-    }
-    #banner2-p {
-        font-size: 1rem;
-        font-weight: 600;
-    }
-    #banner3-p {
-        font-size: 1.4rem;
-        font-weight: 600;
-        color: #37495B;
-    }
+.carousel-inner {
+    background-color: #37495B;
+    color: #ffffff;
+}
+.control-hide {
+    display: none;
+}
+.btn-navy {
+    color: #37495B;
+    background-color: #fff;
+    border-color: #37495B;
+}
+.btn-navy:hover {
+    color: #fff;
+    background-color: #37495B;
+    border-color: #37495B;
+}
 }
 
 /* Tablet Layout: 768px. */
@@ -389,7 +318,14 @@ html,body {
     color: #DD6B6B;
 }
 
-
+#service-book {
+    width: 100%;
+    margin-top: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    margin-bottom: 6rem;
+    margin: auto;
+}
 
 #contact-mini-weixin {
     display: block;
@@ -670,7 +606,14 @@ html,body {
     color: #DD6B6B;
 }
 
-
+#service-book {
+    width: 100%;
+    margin-top: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    margin-bottom: 6rem;
+    margin: auto;
+}
 
 #contact-mini-weixin {
     display: block;
@@ -952,7 +895,14 @@ html,body {
     color: #DD6B6B;
 }
 
-
+#service-book {
+    width: 100%;
+    margin-top: 6rem;
+    padding-top: 8rem;
+    margin-bottom: 6rem;
+    padding-bottom: 6rem;
+    margin: auto;
+}
 
 #contact-mini-weixin {
     display: block;
@@ -994,40 +944,43 @@ h3 {
 
 #service {
     margin: auto;
-    text-align: center;
-    padding: 0 6rem;
+    text-align: left;
+    padding: 0 3rem;
 }
 
 .devide-line {
-    width: 50%;
+    width: 20%;
+    margin-bottom: -3rem;
 }
 
 .service-img {
-    height: 4rem;
+    height: 2.5rem;
     width: auto;
 }
 
 .service-detail {
     color: #898989;
     font-size: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .jump-service {
     color: #DD6B6B;
-    font-size: 1rem;
-    padding: 3rem;
+    font-size: 0.8rem;
+    padding: 1rem;
 }
 
 #choice, #service-home {
     margin: auto;
-    text-align: center;
-    padding: 6rem;
+    text-align: left;
+    padding: 3rem 6rem;
 }
 
 #choice-graphic {
     padding: 3rem 0;
-}
+    width: 70%;
 
+}
 .counters span {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1047,7 +1000,16 @@ h3 {
     margin: auto;
     padding: 6rem 0 0 0;
 }
-
+.btn-navy {
+    color: #37495B;
+    background-color: #fff;
+    border-color: #37495B;
+}
+.btn-navy:hover {
+    color: #fff;
+    background-color: #37495B;
+    border-color: #37495B;
+}
 .center-container {
     text-align: center;
 }
@@ -1102,7 +1064,7 @@ h3 {
     text-align: left;
     margin: auto;
     background-color: #EDF0F3;
-    padding: 10rem 2rem;
+    padding: 6rem;
     width: 100%;
 }
 
@@ -1110,11 +1072,7 @@ h3 {
     display: inline;
 }
 
-.social-icon {
-    margin: 0 1rem;
-    width: 8%;
-    height: auto;
-}
+
 
 .footer-note {
     color: #37495B;
@@ -1172,4 +1130,14 @@ h3 {
     margin-top: 0;
 }
 
+.ser-main {
+    padding: 2rem 5rem;
+}
+
+.landing-img {
+    text-align: center;
+}
+.carousel-item {
+    background: #37495B;
+}
 }

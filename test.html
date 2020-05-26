@@ -1,103 +1,26 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
-
-	<style type="text/css">
-		.video-btn{
-		      position: absolute;
-		      width:1080px;
-		      height: 500px;
-		      background:black;
-		      top:50px;
-		      left: 0px;
-		      right: 0px;
-		      margin: 0 auto;
-		      display: none;
-		      z-index: 101;
-		    }
-		 .video-area{
-		      width:100%;
-		      height: 100%;
-		      background:black;
-		    }
-		 iframe{
-		 	width: 100%;
-		 	height: 100%;
-		 }
- 
-		.video-shut{
-		      height:25px;
-		      width:25px;
-		      border-radius: 12.5px;
-		      font-size:medium;
-		      color:black;
-		      float:left;
-		      text-align: center;
-		      font-weight: bolder;
-		      background: white;
-		      display: block;
-		      position: absolute;
-		      top: -15px;
-		      right: -15px;
- 
-		    }
-		#shadow{
-		     position: absolute;
-		     opacity: 0.5;
-		     filter:alpha(opacity=50);
-		     bottom:0;
-		     left: 0;
-		     right: 0;
-		     top: 0;
-		     background:black;
-		     z-index: 100;
-		     display: none;
-		   }
-	</style>
-	
-</head>
-<body>
-	<center>
-		<div class="main" style="height: 100px;margin-top: 100px;">
-		  <a href="javascript:;" class="video" id="video"><img src="http://i1.hdslb.com/bfs/archive/62915c7879fb3149bd8e21fb6e3c06749b7b40b2.jpg@160w_100h.webp"></a>
-		</div>
-		<div class="video-btn" id="video-btn">
-			<div class="video-area" id="video-area"></div>
-			<a class="video-shut" id="video-shut">×</a>
-		</div>
-		<div id="shadow"></div>
-	</center>
-</body>
-</html>
-<script type="text/javascript">
-		
-  var obtn=document.getElementById('video');
-  var ovideo=document.getElementById('video-btn');
-  var oatn=document.getElementById('video-area');
-  var oshut=document.getElementById('video-shut');
-  var oshadow=document.getElementById('shadow');
-  obtn.οnclick=function () {
-    ovideo.style.display='block';
-    oshadow.style.display='block';
-    oatn.innerHTML='<iframe src="https://player.bilibili.com/player.html?aid=6117110&cid=9931722&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>';
-  }
-  oshut.οnclick= function () {
-    ovideo.style.display='none';
-    oshadow.style.display='none';
-    oatn.innerHTML="";
-  }
-</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        </head>
+<div id="imgselection">
+        <img alt="test" src="./image/service-career.png"/>
+        <img alt="test" src="./image/service-school.png"/>
+        <img alt="test" src="./image/service2.png"/>
+        <img alt="test" src="./image/service4.png"/>
+    </div>
+    
+    <script>
+        $(document).ready(function (jQuery) {
+            var images = Array();
+            var indexImages = Array();
+            jQuery("#imgselection img").each(function (index) {
+                images.push(jQuery(this).attr('src'));
+                indexImages.push(index);
+                jQuery(this).hide();
+            });
+            var selectedImage = images[Math.floor(Math.random() * images.length)];
+            jQuery('body').css('background-image', 'url(' + selectedImage + ')');
+          // // OR Show one image
+          //  var selectedIndexImage = indexImages[Math.floor(Math.random() * indexImages.length)];
+          //  jQuery('#imgselection img').eq(selectedIndexImage).show();
+        });
+    </script>

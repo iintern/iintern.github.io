@@ -25,11 +25,7 @@
         text-align: center;
     }
 
-    #location-container {
-        margin: auto;
-        width: 90%;
-        padding-top: 4rem;
-    }
+
 
     #contact-join, #contact-mail {
         text-align: center;
@@ -119,11 +115,6 @@
         text-align: center;
     }
 
-    #location-container {
-        margin: auto;
-        width: 90%;
-        padding-top: 4rem;
-    }
 
     #contact-join, #contact-mail {
         text-align: center;
@@ -212,11 +203,6 @@
         text-align: center;
     }
 
-    #location-container {
-        margin: auto;
-        width: 90%;
-        padding-top: 4rem;
-    }
 
     #contact-join, #contact-mail {
         text-align: center;
@@ -307,13 +293,12 @@
         font-size: 1.5rem;
         text-align: center;
     }
-
-    #location-container {
-        margin: auto;
-        width: 90%;
-        padding-top: 4rem;
+    .contact-location {
+        background: #F3F3F3;
+        padding: 6rem 10rem 0 10rem;
+        margin: 0;
+        width: 100%;
     }
-
     #contact-join, #contact-mail {
         text-align: center;
         margin: auto;
@@ -387,4 +372,7 @@
         padding-left: 4rem;
         padding-right: 2rem;
     }
+
+
+    
     }

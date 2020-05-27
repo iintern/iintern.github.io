@@ -783,9 +783,10 @@ html,body {
 }
 .banner-font {
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 2.3rem;
+    line-height: 3rem;
+    padding-bottom: 3rem;
 }
 .contact-all {
 	bottom: 30%;
@@ -871,6 +872,8 @@ h3 {
     font-size: 1rem;
 }
 
+
+
 .navbar {
     background-color: #fff;
 }
@@ -896,16 +899,23 @@ h3 {
     width: 20%;
     margin-bottom: -3rem;
 }
+.devide-home {
+    height: 1%;
+    width: auto;
+    margin-bottom: -3rem;
 
+}
 .service-img {
     height: 2.5rem;
     width: auto;
 }
 
+
 .service-detail {
     color: #898989;
     font-size: 1rem;
-    margin-bottom: 0.2rem;
+    margin: 1rem 0;
+    line-height: 2rem;
 }
 
 .jump-service {

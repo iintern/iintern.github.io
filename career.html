@@ -16,9 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>I-internCareer | 求职实习</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
         crossorigin="anonymous">
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -31,6 +30,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="node_modules/bootstrap/js/src/util.js"></script>
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/company.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
@@ -84,7 +84,7 @@
                 </li>
             </ul>
             <div>
-                <a href="#">CN</a> / <a href="http://iccg.us">EN</a>
+                <a href="#">中</a> / <a href="http://iccg.us">EN</a>
             </div>
         </div>
     </nav>
@@ -125,10 +125,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 landing-font">
-                    <span id="service-slogan">囊括多项精品服务， <br>
-                            真正的一站式定制化平台！</span><br><br>
+                    <span id="service-slogan">囊括多项精品服务， <br> 真正的一站式定制化平台！
+                    </span><br><br>
                     <p class="service-body" style="color: #37495B">
-                            我们对接全球300多家知名企业及学府，千余名行业精英导师，对广大学子的兴趣、专业方向、发展规划做全面分析，VIP定制各项计划，让学生真正做到从学业到职业全方位发展。</p>
+                        我们对接全球300多家知名企业及学府，千余名行业精英导师，对广大学子的兴趣、专业方向、发展规划做全面分析，VIP定制各项计划，让学生真正做到从学业到职业全方位发展。</p>
                     <br>
                     <a>
                         <button type="submit" onclick="window.location.href='#school-apply'" class="btn btn-primary mb-2 btn-navy">求职规划咨询</button>
@@ -140,44 +140,22 @@
             </div>
         </div>
     </div>
-    <div class="company-whydsp">
-        <h1 style="text-align: center" class="white-font">服务特色及优势</h1> <br><br>
-        <div class="row">
-            <div class="col-sm">
-                <img class="highlight-icon" src="./image/school1.png"><br>
-                <img class="devide-line" src="./image/devide.png"><br>
-                <h2 class="white-font">顶尖教育资源</h2><br>
-                <p class="service-detail white-font">
-                    与常青藤招生官有长期稳定的合作与坚实的缔约，致力于为学生们提高审理速度和录取几率，是优酷天使投资人及众多商界大咖的子女冲击一流名校的第一选择。
-                </p>
-            </div>
-            <div class="col-sm">
-                <img class="highlight-icon" src="./image/school2.png"><br>
-                <img class="devide-line" src="./image/devide.png"> <br>
-                <h2 class="white-font">王牌精英团队</h2><br>
-                <p class="service-detail white-font">
-                    拒绝模版和低端文书老师，我们的导师团队均为美国名校本科研究生背景，为五百多位学生完成申请，每年帮学生斩获20+常青藤Offer，及十余位全奖博士Offer。
-                </p>
-            </div>
-            <div class="col-sm">
-                <img class="highlight-icon" src="./image/school3.png"><br>
-                <img class="devide-line" src="./image/devide.png"><br>
-                <h2 class="white-font">超值高效服务</h2><br>
-                <p class="service-detail white-font">
-                    把国内中介的高报价用在高质量的文书、提高学生的录取几率上。拒绝中间商家机构，用三分之一或更低的价格，帮助学生申请到最满意的Offer。
-                </p>
-            </div>
-            <div class="col-sm">
-                <img class="highlight-icon" src="./image/school4.png"><br>
-                <img class="devide-line" src="./image/devide.png"><br>
-                <h2 class="white-font">领域全面覆盖</h2><br>
-                <p class="service-detail white-font">
-                    三十余位各专业Top Tier硕博大神任你选择，提供各类文书及作品集的制作和润色，各类冷门专业，我们都能专业解决，拒绝一刀切和模版化。
-                </p>
-            </div>
-        </div>
-    </div>
-<br><br>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+          </div>
     <div class="normal-container" style="background-color: #F4FBFF; text-align: center;">
         <h1>申请流程</h1> <br>
         <img width="80%" height="auto" src="./image/career-process.png" alt="School Application Process"> <br><br><br>
@@ -198,15 +176,15 @@
                 <img width="60%" height="auto" src="./image/school-form.png" />
             </div>
             <div class="col-sm-5 apply-form school-apply-form"> <br><br>
-                    <form id="class-center" class="form-center apply-intern-form">
-                            <input name="applyName" class="form-control" placeholder="姓名">
-                            <input name="applyEmail" class="form-control" placeholder="邮箱">
-                            <input name="applyWechat" class="form-control" placeholder="微信">
-                            <input name="applySchool" class="form-control" placeholder="院校">
-                            <input name="applyMajor" class="form-control" placeholder="专业">
-                            <input name="applyNote" class="form-control" placeholder="备注">
-                            <button id="applySubmit" type="submit" class="btn btn-primary mb-2 btn-navy apply-intern-submit">提交表格</button>
-                        </form>
+                <form id="class-center" class="form-center apply-intern-form">
+                    <input name="applyName" class="form-control" placeholder="姓名">
+                    <input name="applyEmail" class="form-control" placeholder="邮箱">
+                    <input name="applyWechat" class="form-control" placeholder="微信">
+                    <input name="applySchool" class="form-control" placeholder="院校">
+                    <input name="applyMajor" class="form-control" placeholder="专业">
+                    <input name="applyNote" class="form-control" placeholder="备注">
+                    <button id="applySubmit" type="submit" class="btn btn-primary mb-2 btn-navy apply-intern-submit">提交表格</button>
+                </form>
             </div>
         </div> <br><br>
     </div>

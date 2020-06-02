@@ -1,0 +1,54 @@
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+}
+
+/* Max Layout */
+@media only screen and (min-width: 1201px) { 
+#career-wrapper {
+    width: 100%;
+    background-color: #37495B;
+    padding: 6rem;
+    margin: auto;
+    text-align: center;
+}
+.cs-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs-header-item {
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    border-bottom: 10px solid #37495B;
+    text-decoration: none;
+}
+.cs-header-item:hover {
+    color: #DD6B6B;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:active {
+    text-decoration: none;
+    color: #ffffff;
+    list-style-type: none;
+    background-color: #37495B;
+    border-bottom: 10px solid #DD6B6B;
+    text-decoration: none;
+}
+
+.cs-img {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+}

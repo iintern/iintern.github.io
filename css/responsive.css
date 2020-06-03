@@ -57,7 +57,7 @@ h1 {
 
 h2 {
     font-size: 1rem;
-    color: #37495B;
+    color: #1A2C38;
     margin: 1.5rem 0 0.5rem 0;
 }
 
@@ -153,7 +153,7 @@ button:focus {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 0.6rem;
-    color: #37495B;
+    color: #1A2C38;
   }
 
 #feedback {
@@ -170,7 +170,7 @@ button:focus {
     margin: 0;
 }
 .student {
-    background-color: #37495B;
+    background-color: #1A2C38;
     padding: 4rem 3rem 3rem 3rem;
 }
 .feedback-person {
@@ -222,7 +222,7 @@ button:focus {
 }
 
 .footer-note {
-    color: #37495B;
+    color: #1A2C38;
     font-size: 0.6rem;
 }
 
@@ -231,21 +231,21 @@ button:focus {
     width: auto;
 }
 .carousel-inner {
-    background-color: #37495B;
+    background-color: #1A2C38;
     color: #ffffff;
 }
 .control-hide {
     display: none;
 }
 .btn-navy {
-    color: #37495B;
+    color: #1A2C38;
     background-color: #fff;
-    border-color: #37495B;
+    border-color: #1A2C38;
 }
 .btn-navy:hover {
     color: #fff;
-    background-color: #37495B;
-    border-color: #37495B;
+    background-color: #1A2C38;
+    border-color: #1A2C38;
 }
 }
 
@@ -278,7 +278,7 @@ html,body {
     z-index: 1;
     right: 105%;
     bottom: 30%;
-    background-color: #37495B;
+    background-color: #1A2C38;
     color: #ffffff;
     font-size: 1rem;
     padding: 16px;
@@ -342,7 +342,7 @@ h1 {
 
 h2 {
     font-size: 1rem;
-    color: #37495B;
+    color: #1A2C38;
     margin: 2rem 0 0 0;
 }
 
@@ -415,7 +415,7 @@ h3 {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
-    color: #37495B;
+    color: #1A2C38;
   }
 
 #feedback {
@@ -432,7 +432,7 @@ h3 {
     margin: 0;
 }
 .student {
-    background-color: #37495B;
+    background-color: #1A2C38;
     padding: 3rem;
 }
 .feedback-person {
@@ -496,7 +496,7 @@ h3 {
 
 
 .footer-note {
-    color: #37495B;
+    color: #1A2C38;
     font-size: 0.8rem;
 }
 
@@ -546,7 +546,7 @@ html,body {
     z-index: 1;
     right: 105%;
     bottom: 30%;
-    background-color: #37495B;
+    background-color: #1A2C38;
     color: #ffffff;
     font-size: 1rem;
     padding: 16px;
@@ -600,7 +600,7 @@ h1 {
 
 h2 {
     font-size: 1.2rem;
-    color: #37495B;
+    color: #1A2C38;
     margin: 2rem 0 0 0;
 }
 
@@ -675,7 +675,7 @@ h3 {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    color: #37495B;
+    color: #1A2C38;
   }
 
 #feedback {
@@ -692,7 +692,7 @@ h3 {
     margin: 0;
 }
 .student {
-    background-color: #37495B;
+    background-color: #1A2C38;
     padding: 4rem 3rem 3rem 3rem;
 }
 .feedback-person {
@@ -755,7 +755,7 @@ h3 {
 }
 
 .footer-note {
-    color: #37495B;
+    color: #1A2C38;
     font-size: 0.8rem;
 }
 
@@ -810,7 +810,7 @@ html,body {
     z-index: 1;
     right: 105%;
     bottom: 30%;
-    background-color: #37495B;
+    background-color: #1A2C38;
     color: #ffffff;
     font-size: 1rem;
     padding: 16px;
@@ -864,7 +864,7 @@ h1 {
 
 h2 {
     font-size: 1.2rem;
-    color: #37495B;
+    color: #1A2C38;
     margin: 2rem 0 0 0;
 }
 
@@ -953,7 +953,7 @@ h3 {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    color: #37495B;
+    color: #1A2C38;
   }
 
 #feedback {
@@ -961,15 +961,15 @@ h3 {
     padding: 6rem 0 0 0;
 }
 .btn-navy {
-    color: #37495B;
+    color: #1A2C38;
     background-color: #fff;
-    border-color: #37495B;
+    border-color: #1A2C38;
     border-radius: 50px;
 }
 .btn-navy:hover {
     color: #fff;
-    background-color: #37495B;
-    border-color: #37495B;
+    background-color: #1A2C38;
+    border-color: #1A2C38;
 }
 .center-container {
     text-align: center;
@@ -980,7 +980,7 @@ h3 {
     margin: 0;
 }
 .student {
-    background-color: #37495B;
+    background-color: #1A2C38;
     padding: 6rem;
 }
 .feedback-person {
@@ -1036,7 +1036,7 @@ h3 {
 
 
 .footer-note {
-    color: #37495B;
+    color: #1A2C38;
     font-size: 0.8rem;
 }
 
@@ -1068,6 +1068,6 @@ h3 {
     text-align: center;
 }
 .carousel-item {
-    background: #37495B;
+    background: #1A2C38;
 }
 }

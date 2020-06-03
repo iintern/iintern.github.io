@@ -23,6 +23,8 @@
     #contact-locationtitle {
         font-size: 1.5rem;
         text-align: center;
+        color: #ffffff;
+
     }
 
 
@@ -81,14 +83,14 @@
 
     .position-title-cn {
         font-size: 1.2rem;
-        color: #37495B;
+        color: #1A2C38;
         font-weight: 400;
         padding-bottom: 0.8rem;
         padding-top: 1.6rem;
     }
 
     .dsp-title {
-        color: #37495B;
+        color: #1A2C38;
         padding-top: 3rem;
         font-size: 1rem;
     }
@@ -113,6 +115,8 @@
     #contact-locationtitle {
         font-size: 1.5rem;
         text-align: center;
+        color: #ffffff;
+
     }
 
 
@@ -169,14 +173,14 @@
 
     .position-title-cn {
         font-size: 2rem;
-        color: #37495B;
+        color: #1A2C38;
         font-weight: 400;
         padding-bottom: 0.8rem;
         padding-top: 1.6rem;
     }
 
     .dsp-title {
-        color: #37495B;
+        color: #1A2C38;
         padding-top: 3rem;
         font-size: 1.2rem;
     }
@@ -201,6 +205,7 @@
     #contact-locationtitle {
         font-size: 1.5rem;
         text-align: center;
+        color: #ffffff;
     }
 
 
@@ -257,14 +262,14 @@
 
     .position-title-cn {
         font-size: 2rem;
-        color: #37495B;
+        color: #1A2C38;
         font-weight: 400;
         padding-bottom: 0.8rem;
         padding-top: 1.6rem;
     }
 
     .dsp-title {
-        color: #37495B;
+        color: #1A2C38;
         padding-top: 3rem;
         padding-left: 2rem;
         font-size: 1.6rem;
@@ -292,9 +297,11 @@
     #contact-locationtitle {
         font-size: 1.5rem;
         text-align: center;
+        color: #ffffff;
+
     }
     .contact-location {
-        background: #F3F3F3;
+        background: #1A2C38;
         padding: 6rem 10rem 0 10rem;
         margin: 0;
         width: 100%;
@@ -352,14 +359,14 @@
 
     .position-title-cn {
         font-size: 2rem;
-        color: #37495B;
+        color: #1A2C38;
         font-weight: 400;
         padding-bottom: 0.8rem;
         padding-top: 1.6rem;
     }
 
     .dsp-title {
-        color: #37495B;
+        color: #1A2C38;
         padding-top: 3rem;
         padding-left: 2rem;
         font-size: 1.6rem;

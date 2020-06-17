@@ -649,16 +649,17 @@ button:focus {
 }
 
 .company-btn {
-    background-color: #1A2C38;
+    background-color: #ffffff;
     margin: 5rem 0;
+    color: #1A2C38;
     border-color: #1A2C38;
-    padding: 0.4rem 1.8rem;
+    border-radius: 50px;
 }
 
 .company-btn:hover {
-    background-color: #fff;
-    color: #1A2C38;
-    border-color: #1A2C38;  
+    color: #fff;
+    background-color: #1A2C38;
+    border-color: #1A2C38; 
 }
 
 #company-contract {

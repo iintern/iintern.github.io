@@ -34,7 +34,7 @@
     }
 
     .card-header {
-        padding: 2rem;
+        padding: 0rem;
         background-color: #fff;
     }
 
@@ -73,11 +73,11 @@
     }
 
     .position-title-cn {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #1A2C38;
         font-weight: 400;
-        padding-bottom: 0.8rem;
-        padding-top: 1.6rem;
+        padding-bottom: 0.5rem;
+        padding-top: 1.5rem;
     }
 
     .dsp-title {
@@ -318,7 +318,7 @@
         }
     
         .card-header {
-            padding: 2rem;
+            padding: 0rem;
             background-color: #fff;
         }
     
@@ -357,7 +357,7 @@
         }
     
         .position-title-cn {
-            font-size: 2rem;
+            font-size: 1rem;
             color: #1A2C38;
             font-weight: 400;
             padding-bottom: 0.8rem;
@@ -601,7 +601,7 @@
         }
     
         .card-header {
-            padding: 2rem;
+            padding: 0rem;
             background-color: #fff;
         }
     
@@ -640,7 +640,7 @@
         }
     
         .position-title-cn {
-            font-size: 2rem;
+            font-size: 1rem;
             color: #1A2C38;
             font-weight: 400;
             padding-bottom: 0.8rem;
@@ -721,7 +721,7 @@
 }
 
 .card-header {
-    padding: 2rem;
+    padding: 0rem;
     background-color: #fff;
 }
 
@@ -760,7 +760,7 @@
 }
 
 .position-title-cn {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #1A2C38;
     font-weight: 400;
     padding-bottom: 0.8rem;

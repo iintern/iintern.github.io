@@ -36,7 +36,7 @@ html,body {
 
 #contact-mobile {
     display: block;
-    background-color: #DD6B6B;
+    background-color: #D15151;
     color: #fff;
     border-radius: 50%;
 }
@@ -44,7 +44,7 @@ html,body {
     color: #ffffff;
 }
 .fa-comments:hover {
-    color: #DD6B6B;
+    color: #D15151;
 }
 #contact-mobile:hover {
     background-color: #fff;
@@ -125,7 +125,7 @@ button:focus {
 }
 
 .jump-service {
-    color: #DD6B6B;
+    color: #D15151;
     font-size: 0.8rem;
     padding: 1rem;
 }
@@ -145,7 +145,7 @@ button:focus {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-    color: #DD6B6B;
+    color: #D15151;
   }
   
   .counters p {
@@ -315,7 +315,7 @@ html,body {
 }
 
 .contact-mini-icon:hover {
-    color: #DD6B6B;
+    color: #D15151;
 }
 
 #service-book {
@@ -388,7 +388,7 @@ h3 {
 }
 
 .jump-service {
-    color: #DD6B6B;
+    color: #D15151;
     font-size: 0.8rem;
     padding: 2rem;
 }
@@ -407,7 +407,7 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 2rem;
-    color: #DD6B6B;
+    color: #D15151;
   }
   
   .counters p {
@@ -479,10 +479,6 @@ h3 {
     background-color: #EDF0F3;
     padding: 10rem 2rem;
     width: 100%;
-}
-
-.footer-socialmedia {
-    display: inline;
 }
 
 .social-icon {
@@ -573,7 +569,7 @@ html,body {
 }
 
 .contact-mini-icon:hover {
-    color: #DD6B6B;
+    color: #D15151;
 }
 
 #service-book {
@@ -648,7 +644,7 @@ h3 {
 }
 
 .jump-service {
-    color: #DD6B6B;
+    color: #D15151;
     font-size: 1rem;
     padding: 3rem;
 }
@@ -667,7 +663,7 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 48px;
-    color: #DD6B6B;
+    color: #D15151;
   }
   
   .counters p {
@@ -837,7 +833,7 @@ html,body {
 }
 
 .contact-mini-icon:hover {
-    color: #DD6B6B;
+    color: #D15151;
 }
 
 #service-book {
@@ -919,7 +915,7 @@ h3 {
 }
 
 .jump-service {
-    color: #DD6B6B;
+    color: #D15151;
     font-size: 0.8rem;
     padding: 1rem;
 }
@@ -933,7 +929,8 @@ h3 {
 #choice {
     margin: auto;
     text-align: center;
-    padding: 3rem 6rem;
+    width: 80%;
+    padding: 3rem 0;
 }
 
 #choice-graphic {
@@ -945,7 +942,7 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 48px;
-    color: #DD6B6B;
+    color: #D15151;
   }
   
   .counters p {
@@ -958,7 +955,7 @@ h3 {
 
 #feedback {
     margin: auto;
-    padding: 6rem 0 0 0;
+    padding: 3rem 0;
 }
 .btn-navy {
     color: #1A2C38;
@@ -1024,20 +1021,20 @@ h3 {
 .footer {
     text-align: left;
     margin: auto;
-    background-color: #EDF0F3;
-    padding: 6rem;
+    background-color: #1A2C38;
+    padding: 4rem 15%;
     width: 100%;
 }
 
-.footer-socialmedia {
-    display: inline;
+.footer-title {
+    margin-top: 0;
+    color: #97C1DF;
 }
 
-
-
 .footer-note {
-    color: #1A2C38;
-    font-size: 0.8rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+    line-height: 2rem;
 }
 
 .home-service-img {
@@ -1056,9 +1053,7 @@ h3 {
 .ser-body {
     padding: 0 4rem;
 }
-.footer-title {
-    margin-top: 0;
-}
+
 
 .ser-main {
     padding: 2rem 7rem;
@@ -1069,5 +1064,11 @@ h3 {
 }
 .carousel-item {
     background: #1A2C38;
+}
+
+#news {
+    width: 80%;
+    margin: auto;
+    padding: 0;
 }
 }

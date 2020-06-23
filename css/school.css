@@ -1,8 +1,24 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
     .normal-container {
-        padding: 2rem;
+        padding: 2rem 0;
     
+    }
+    .form-control {
+        border-radius: 50px;
+        border-color: #1A2C38;
+        border-width: 1px;
+        width: 100%;
+        margin: 1rem 0;
+        background-color: #F4FBFF;
+        box-shadow: none;
+    }
+    .school-apply-form {
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+    .row {
+        margin: 0;
     }
 }
 
@@ -11,6 +27,18 @@
     .normal-container {
         padding: 2rem 4rem;
     
+    }
+    .form-control {
+        border-radius: 50px;
+        border-color: #1A2C38;
+        border-width: 1px;
+        width: 70%;
+        margin: 1rem 0;
+        background-color: #F4FBFF;
+        box-shadow: none;
+    }
+    .school-apply-form {
+        padding: 2rem 4rem;
     }
 }
 

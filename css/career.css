@@ -1,11 +1,89 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
-
+    #career-wrapper {
+        width: 100%;
+        background-color: #1A2C38;
+        padding: 2rem 0;
+        margin: auto;
+        text-align: center;
+    }
+    .cs-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cs-header-item {
+        padding: 0 0.5rem;
+        text-align: center;
+        margin: auto;
+        color: #ffffff;
+        border-bottom: 10px solid #1A2C38;
+        text-decoration: none;
+    }
+    .cs-header-item:hover {
+        color: #D15151;
+    }
+    
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link:active {
+        text-decoration: none;
+        color: #ffffff;
+        list-style-type: none;
+        background-color: #1A2C38;
+        border-bottom: 10px solid #D15151;
+        text-decoration: none;
+    }
+    
+    .cs-img {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-
+    #career-wrapper {
+        width: 100%;
+        background-color: #1A2C38;
+        padding: 6rem;
+        margin: auto;
+        text-align: center;
+    }
+    .cs-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cs-header-item {
+        padding: 1rem 2rem;
+        text-align: center;
+        margin: auto;
+        color: #ffffff;
+        border-bottom: 10px solid #1A2C38;
+        text-decoration: none;
+    }
+    .cs-header-item:hover {
+        color: #D15151;
+    }
+    
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link:active {
+        text-decoration: none;
+        color: #ffffff;
+        list-style-type: none;
+        background-color: #1A2C38;
+        border-bottom: 10px solid #D15151;
+        text-decoration: none;
+    }
+    
+    .cs-img {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 /* Max Layout */
@@ -32,7 +110,7 @@
     text-decoration: none;
 }
 .cs-header-item:hover {
-    color: #DD6B6B;
+    color: #D15151;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link:active {
@@ -40,7 +118,7 @@
     color: #ffffff;
     list-style-type: none;
     background-color: #1A2C38;
-    border-bottom: 10px solid #DD6B6B;
+    border-bottom: 10px solid #D15151;
     text-decoration: none;
 }
 

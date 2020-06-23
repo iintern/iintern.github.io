@@ -52,7 +52,7 @@ html,body {
 
 h1 {
     font-size: 1rem;
-    margin: 1.4rem 0;
+    margin: 1rem 0;
 }
 
 h2 {
@@ -84,7 +84,11 @@ button:focus {
 .carousel {
     background:#007aeb;
   }
-  
+  #service-slogan {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 700;
+}
   /*
   Forces image to be 100% width and not max width of 100%
   */
@@ -212,23 +216,28 @@ button:focus {
 .footer {
     text-align: left;
     margin: auto;
-    background-color: #EDF0F3;
+    background-color: #1A2C38;
     padding: 4rem 2rem;
     width: 100%;
 }
 
 .footer-title {
     margin-top: 2rem;
+    color: #97C1DF;
 }
 
 .footer-note {
-    color: #1A2C38;
+    color: #fff;
     font-size: 0.6rem;
 }
 
   .home-service-img {
-    height: 18%;
-    width: auto;
+    width: 40%;
+    height: auto;
+}
+.mobile-service {
+    text-align: left;
+    margin-bottom: 2rem;
 }
 .carousel-inner {
     background-color: #1A2C38;
@@ -241,6 +250,8 @@ button:focus {
     color: #1A2C38;
     background-color: #fff;
     border-color: #1A2C38;
+    border-radius: 50px;
+}
 }
 .btn-navy:hover {
     color: #fff;
@@ -302,7 +313,9 @@ html,body {
     clear: right;
     /* border-bottom: 0.5px solid #9b9b9b; */
 }
-
+.mobile-service {
+    text-align: center;
+}
 #contact-mobile {
     display: none;
 }
@@ -392,7 +405,11 @@ h3 {
     font-size: 0.8rem;
     padding: 2rem;
 }
-
+#service-slogan {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 700;
+}
 #choice, #service-home {
     margin: auto;
     text-align: center;
@@ -476,7 +493,7 @@ h3 {
 .footer {
     text-align: left;
     margin: auto;
-    background-color: #EDF0F3;
+    background-color: #1A2C38;
     padding: 10rem 2rem;
     width: 100%;
 }
@@ -488,11 +505,12 @@ h3 {
 }
 .footer-title {
     margin-top: 0;
+    color: #97C1DF;
 }
 
 
 .footer-note {
-    color: #1A2C38;
+    color: #fff;
     font-size: 0.8rem;
 }
 
@@ -527,7 +545,9 @@ html,body {
     z-index: 9999;
     background-color: #F9F9F9;
 }
-
+.mobile-service {
+    text-align: center;
+}
 .contact-all-mini img {
     display: none;
     position: absolute;
@@ -673,7 +693,17 @@ h3 {
     font-size: 18px;
     color: #1A2C38;
   }
-
+  .btn-navy {
+    color: #1A2C38;
+    background-color: #fff;
+    border-color: #1A2C38;
+    border-radius: 50px;
+}
+.btn-navy:hover {
+    color: #fff;
+    background-color: #1A2C38;
+    border-color: #1A2C38;
+}
 #feedback {
     margin: auto;
     padding: 6rem 0 0 0;
@@ -732,7 +762,7 @@ h3 {
 .footer {
     text-align: left;
     margin: auto;
-    background-color: #EDF0F3;
+    background-color: #1A2C38;
     padding: 10rem 2rem;
     width: 100%;
 }
@@ -748,10 +778,11 @@ h3 {
 }
 .footer-title {
     margin-top: 0;
+    color: #97C1DF;
 }
 
 .footer-note {
-    color: #1A2C38;
+    color: #fff;
     font-size: 0.8rem;
 }
 
@@ -791,7 +822,9 @@ html,body {
     z-index: 9999;
     background-color: #F9F9F9;
 }
-
+.mobile-service {
+    text-align: center;
+}
 .contact-all-mini img {
     display: none;
     position: absolute;

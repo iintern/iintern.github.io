@@ -94,13 +94,9 @@
         padding-left: 4rem;
         padding-right: 2rem;
     }
-    body{
-        background-color: #fff;
-        margin-top:20px;
-    }
-    
+ 
     .main-timeline {
-        position: relative
+        position: relative;
     }
     
     .main-timeline:before {
@@ -118,7 +114,7 @@
     
     .main-timeline .timeline {
         margin-bottom: 40px;
-        position: relative
+        position: relative;
     }
     
     .main-timeline .timeline:after {
@@ -298,13 +294,19 @@
             text-align: center;
         }
     
+
         #contact-locationtitle {
             font-size: 1.5rem;
             text-align: center;
-            color: #ffffff;
+            color: #fff;
+    
         }
-    
-    
+        .contact-location {
+            background: #1A2C38;
+            padding: 6rem 10rem 0 10rem;
+            margin: 0;
+            width: 100%;
+        }
         #contact-join, #contact-mail {
             text-align: center;
             margin: auto;
@@ -580,11 +582,18 @@
             text-align: center;
         }
     
+
         #contact-locationtitle {
             font-size: 1.5rem;
             text-align: center;
-            color: #ffffff;
+            color: #fff;
     
+        }
+        .contact-location {
+            background: #1A2C38;
+            padding: 6rem 10rem 0 10rem;
+            margin: 0;
+            width: 100%;
         }
     
     
@@ -676,11 +685,6 @@
         }
 
 
-    /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
-    
-}
-
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
 /* -----------------CONTACT---------------- */
@@ -698,13 +702,19 @@
  button:focus {
      outline: none;
  }
-#contact-locationtitle {
-    font-size: 1.5rem;
+
+ #contact-locationtitle {
+    font-size: 1rem;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
 
 }
-
+.contact-location {
+    background: #1A2C38;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
 
 
 #contact-join, #contact-mail {
@@ -789,38 +799,38 @@
     margin-bottom: 0
 }
 .main-timeline .icon {
-    margin: auto 0
+    margin: auto 0;
 }
 .main-timeline .date-content {
     width: 95%;
     float: right;
-    margin-top: 0
+    margin-top: 0;
 }
 .main-timeline .date-content:before {
     display: none
 }
 .main-timeline .date-outer {
     width: 110px;
-    height: 110px
+    height: 110px;
 }
 .main-timeline .date-outer:before,
 .main-timeline .date-outer:after {
     width: 110px;
-    height: 110px
+    height: 110px;
 }
 .main-timeline .date {
-    top: 30%
+    top: 30%;
 }
 .main-timeline .year {
-    font-size: 24px
+    font-size: 24px;
 }
 .main-timeline .timeline-content,
 .main-timeline .timeline:nth-child(2n) .timeline-content {
     width: 95%;
     text-align: center;
-    padding: 10px 0
+    padding: 10px 0;
 }
 .main-timeline .title {
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 }

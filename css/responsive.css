@@ -252,7 +252,7 @@ button:focus {
     border-color: #1A2C38;
     border-radius: 50px;
 }
-}
+
 .btn-navy:hover {
     color: #fff;
     background-color: #1A2C38;
@@ -262,544 +262,573 @@ button:focus {
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-html,body { 
-  height: 100%;
-  margin: 0;
-}
-
-.contact-all {
-	bottom: 30%;
-	right: 0;
-    position: fixed;
-    z-index: 9999;
-    background-color: #F9F9F9;
-}
-
-.contact-all-mini img {
-    display: none;
-    position: absolute;
-    left: -200px;
-    width: 200px;
-    height: 200px;
-}
-#phone-dely #delysia {
-    visibility: hidden;
-    width: 180px;
-    position: absolute;
-    z-index: 1;
-    right: 105%;
-    bottom: 30%;
-    background-color: #1A2C38;
-    color: #ffffff;
-    font-size: 1rem;
-    padding: 16px;
-}
-
-#phone-dely:hover #delysia {
-    visibility: visible;
-}
-
-.navbar-toggler {
-    border: none;
-    outline: none;
- }
- 
- button:focus {
-     outline: none;
- }
-.contact-all-mini {
-    display: block;
-    float: right;
-    clear: right;
-    /* border-bottom: 0.5px solid #9b9b9b; */
-}
-.mobile-service {
-    text-align: center;
-}
-#contact-mobile {
-    display: none;
-}
-
-.contact-mini-icon {
-    color: #707B85;
-    margin: 15px;    
-    font-size: 1.2rem;
-    height: auto;
-}
-
-.contact-mini-icon:hover {
-    color: #D15151;
-}
-
-#service-book {
-    width: 100%;
-    margin-top: 6rem;
-    padding-top: 8rem;
-    padding-bottom: 3rem;
-    margin-bottom: 6rem;
-    margin: auto;
-}
-
-#contact-mini-weixin {
-    display: block;
-    border-radius: 0.8em;
-    max-width: 100%;
-    height: auto;
-}
-
-
-h1 {
-    font-size: 1.5rem;
-    margin: 1.4rem 0;
-}
-
-h2 {
-    font-size: 1rem;
-    color: #1A2C38;
-    margin: 2rem 0 0 0;
-}
-
-h3 {
-    font-size: 1rem;
-}
-.navbar {
-    background-color: #fff;
-}
-.dropdown:hover .dropdown-menu{
-    display:block;
-  }
-
-#intro {
-    position: relative;
-    background-color: white;
-    margin: auto;
-    text-align: center;
-    padding: 6rem;
-}
-
-#intro-text {
-  font-size: 0.8rem;
-}
-#service {
-    margin: auto;
-    text-align: center;
-    padding: 0 6rem;
-}
-
-.devide-line {
-    width: 50%;
-}
-
-.service-img {
-    height: 4rem;
-    width: auto;
-}
-
-.service-detail {
-    color: #898989;
-    font-size: 0.7rem;
-}
-
-.jump-service {
-    color: #D15151;
-    font-size: 0.8rem;
-    padding: 2rem;
-}
-#service-slogan {
-    font-size: 1.2rem;
-    color: #000;
-    font-weight: 700;
-}
-#choice, #service-home {
-    margin: auto;
-    text-align: center;
-    padding: 6rem;
-}
-
-#choice-graphic {
-    padding: 3rem 0;
-}
-
-.counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #D15151;
-  }
-  
-  .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    color: #1A2C38;
-  }
-
-#feedback {
-    margin: auto;
-    padding: 6rem 0 0 0;
-}
-
-.center-container {
-    text-align: center;
-}
-
-.feedback-container {
-    padding: 0;
-    margin: 0;
-}
-.student {
-    background-color: #1A2C38;
-    padding: 3rem;
-}
-.feedback-person {
-    padding: 1rem 0 2rem 0;
-}
-.feedback-detail {
-    color: rgba(255, 255, 255, 60);
-}
-
-.feedback-profile {
-    display: inline;
-    border-radius: 50%;
-    
-}
-
-.feedback-name {
-    display: inline;
-    padding-left: 1rem;
-    font-size: 1rem;
-    color: #fff;
-}
-
-#feedback-title1 {
-    color: white;
-}
-
-#feedback-row {
-  margin: 0;
-}
-
-.school {
-    padding: 4rem;
-}
-
-#feedback-title2 {
-    color: #000;
-    display: inline;
-    padding: 0 4rem 0 0;
-}
-
-.footer {
-    text-align: left;
-    margin: auto;
-    background-color: #1A2C38;
-    padding: 10rem 2rem;
-    width: 100%;
-}
-
-.social-icon {
-    margin: 0rem 0.5rem;
-    width: 7%;
-    height: auto;
-}
-.footer-title {
-    margin-top: 0;
-    color: #97C1DF;
-}
-
-
-.footer-note {
-    color: #fff;
-    font-size: 0.8rem;
-}
-
-  
-.home-service-img {
-    height: 20%;
-    width: auto;
-}
-#float-code {
-    position:fixed;
-    bottom:5%;
-    right:5%;
-    z-index: 9999;
-}
-.web-none {
-    display: none;
-}
-
+    html,body { 
+        height: 100%;
+        margin: 0;
+      }
+      
+      .contact-all {
+          bottom: 30%;
+          right: 0;
+          position: fixed;
+          z-index: 9999;
+          background-color: #F9F9F9;
+          border-radius: 50%;
+      }
+      
+      #phone-dely:hover #delysia {
+          visibility: visible;
+      }
+      
+      
+      .contact-mini-icon {
+          color: #707B85;
+          margin: 15px;    
+          font-size: 1.2rem;
+          height: auto;
+      }
+      #service-book {
+          width: 100%;
+          margin-top: 6rem;
+          padding-top: 4rem;
+          padding-bottom: 2rem;
+          margin-bottom: 6rem;
+          margin: auto;
+      }
+      
+      #contact-mobile {
+          display: block;
+          background-color: #D15151;
+          color: #fff;
+          border-radius: 50%;
+      }
+      .fa-comments {
+          color: #ffffff;
+      }
+      .fa-comments:hover {
+          color: #D15151;
+      }
+      #contact-mobile:hover {
+          background-color: #fff;
+      }
+      
+      h1 {
+          font-size: 1rem;
+          margin: 1rem 0;
+      }
+      
+      h2 {
+          font-size: 1rem;
+          color: #1A2C38;
+          margin: 1.5rem 0 0.5rem 0;
+      }
+      
+      h3 {
+          font-size: 1rem;
+      }
+      
+      .navbar {
+          background-color: #fff;
+          clear: both;
+      }
+      .dropdown:hover .dropdown-menu{
+          display:block;
+        }
+      
+      .navbar-toggler {
+         border: none;
+         outline: none;
+      }
+      
+      button:focus {
+          outline: none;
+      }
+      .carousel {
+          background:#007aeb;
+        }
+        #service-slogan {
+          font-size: 1.2rem;
+          color: #000;
+          font-weight: 700;
+      }
+        /*
+        Forces image to be 100% width and not max width of 100%
+        */
+        .carousel-item .img-fluid {
+          width:100%;
+        }
+        
+        /* 
+        anchors are inline so you need ot make them block to go full width
+        */
+        .carousel-item a {
+          display: block;
+          width:100%;
+        }
+        #float-code {
+          display: none;
+      }
+      #service {
+          margin: auto;
+          text-align: left;
+          padding: 0 3rem;
+      }
+      
+      .devide-line {
+          width: 30%;
+          margin-bottom: -1.5rem;
+      }
+      
+      .service-img {
+          height: 2.5rem;
+          width: auto;
+      }
+      
+      .service-detail {
+          color: #898989;
+          font-size: 0.7rem;
+          margin-bottom: 0.2rem;
+      }
+      
+      .jump-service {
+          color: #D15151;
+          font-size: 0.8rem;
+          padding: 1rem;
+      }
+      
+      #choice, #service-home {
+          margin: auto;
+          text-align: left;
+          padding: 3rem;
+      }
+      
+      #choice-graphic {
+          padding: 3rem 0;
+          width: 100%;
+      }
+      
+      .counters span {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          font-size: 1.5rem;
+          color: #D15151;
+        }
+        
+        .counters p {
+          padding: 0;
+          margin: 0 0 20px 0;
+          font-family: "Montserrat", sans-serif;
+          font-size: 0.6rem;
+          color: #1A2C38;
+        }
+      
+      #feedback {
+          margin: auto;
+          padding: 6rem 0 0 0;
+      }
+      
+      .center-container {
+          text-align: center;
+      }
+      
+      .feedback-container {
+          padding: 0;
+          margin: 0;
+      }
+      .student {
+          background-color: #1A2C38;
+          padding: 4rem 3rem 3rem 3rem;
+      }
+      .feedback-person {
+          padding: 1rem 0 2rem 0;
+      }
+      .feedback-detail {
+          color: rgba(255, 255, 255, 60);
+      }
+      
+      .feedback-profile {
+          display: inline;
+          border-radius: 50%;
+      }
+      
+      .feedback-name {
+          display: inline;
+          padding-left: 1rem;
+          font-size: 1rem;
+          color: #fff;
+      }
+      
+      #feedback-title1 {
+          color: white;
+      }
+      
+      #feedback-row {
+        margin: 0;
+      }
+      .school {
+          padding: 3rem;
+      }
+      
+      #feedback-title2 {
+          color: #000;
+          display: inline;
+          padding: 0 4rem 0 0;
+      }
+      
+      .footer {
+          text-align: left;
+          margin: auto;
+          background-color: #1A2C38;
+          padding: 4rem 2rem;
+          width: 100%;
+      }
+      
+      .footer-title {
+          margin-top: 2rem;
+          color: #97C1DF;
+      }
+      
+      .footer-note {
+          color: #fff;
+          font-size: 0.9rem;
+      }
+      
+        .home-service-img {
+          width: 40%;
+          height: auto;
+      }
+      .mobile-service {
+          text-align: left;
+          margin-bottom: 2rem;
+      }
+      .carousel-inner {
+          background-color: #1A2C38;
+          color: #ffffff;
+      }
+      .control-hide {
+          display: none;
+      }
+      .btn-navy {
+          color: #1A2C38;
+          background-color: #fff;
+          border-color: #1A2C38;
+          border-radius: 50px;
+      }
+      
+      .btn-navy:hover {
+          color: #fff;
+          background-color: #1A2C38;
+          border-color: #1A2C38;
+      }
 }
 
 /* Medium Layout: 1200px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-html,body { 
-  height: 100%;
-  margin: 0;
-}
-
-.contact-all {
-	bottom: 30%;
-	right: 0;
-    position: fixed;
-    z-index: 9999;
-    background-color: #F9F9F9;
-}
-.mobile-service {
-    text-align: center;
-}
-.contact-all-mini img {
-    display: none;
-    position: absolute;
-    left: -200px;
-    width: 200px;
-    height: 200px;
-}
-#phone-dely #delysia {
-    visibility: hidden;
-    width: 180px;
-    position: absolute;
-    z-index: 1;
-    right: 105%;
-    bottom: 30%;
-    background-color: #1A2C38;
-    color: #ffffff;
-    font-size: 1rem;
-    padding: 16px;
-}
-
-#phone-dely:hover #delysia {
-    visibility: visible;
-}
-
-.contact-all-mini {
-    display: block;
-    float: right;
-    clear: right;
-    /* border-bottom: 0.5px solid #9b9b9b; */
-}
-#contact-mobile {
-    display: none;
-}
-.contact-mini-icon {
-    color: #707B85;
-    margin: 18px;    
-    font-size: 2rem;
-    height: auto;
-}
-
-.contact-mini-icon:hover {
-    color: #D15151;
-}
-
-#service-book {
-    width: 100%;
-    margin-top: 6rem;
-    padding-top: 8rem;
-    padding-bottom: 4rem;
-    margin-bottom: 6rem;
-    margin: auto;
-}
-
-#contact-mini-weixin {
-    display: block;
-    border-radius: 0.8em;
-    max-width: 100%;
-    height: auto;
-}
-
-
-h1 {
-    font-size: 1.5rem;
-    margin: 1.4rem 0;
-}
-
-h2 {
-    font-size: 1.2rem;
-    color: #1A2C38;
-    margin: 2rem 0 0 0;
-}
-
-h3 {
-    font-size: 1rem;
-}
-
-.navbar {
-    background-color: #fff;
-}
-.dropdown:hover .dropdown-menu{
-    display:block;
-  }
-
-
-#intro {
-    position: relative;
-    background-color: white;
-    margin: auto;
-    text-align: center;
-    padding: 6rem;
-}
-
-#intro-text {
-  font-size: 0.8rem;
-}
-#service {
-    margin: auto;
-    text-align: center;
-    padding: 0 6rem;
-}
-
-.devide-line {
-    width: 50%;
-}
-
-.service-img {
-    height: 4rem;
-    width: auto;
-}
-
-.service-detail {
-    color: #898989;
-    font-size: 1rem;
-}
-
-.jump-service {
-    color: #D15151;
-    font-size: 1rem;
-    padding: 3rem;
-}
-
-#choice, #service-home {
-    margin: auto;
-    text-align: center;
-    padding: 6rem;
-}
-
-#choice-graphic {
-    padding: 3rem 0;
-}
-
-.counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    color: #D15151;
-  }
-  
-  .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #1A2C38;
-  }
-  .btn-navy {
-    color: #1A2C38;
-    background-color: #fff;
-    border-color: #1A2C38;
-    border-radius: 50px;
-}
-.btn-navy:hover {
-    color: #fff;
-    background-color: #1A2C38;
-    border-color: #1A2C38;
-}
-#feedback {
-    margin: auto;
-    padding: 6rem 0 0 0;
-}
-
-.center-container {
-    text-align: center;
-}
-
-.feedback-container {
-    padding: 0;
-    margin: 0;
-}
-.student {
-    background-color: #1A2C38;
-    padding: 4rem 3rem 3rem 3rem;
-}
-.feedback-person {
-    padding: 1rem 0 2rem 0;
-}
-.feedback-detail {
-    color: rgba(255, 255, 255, 60);
-}
-
-.feedback-profile {
-    display: inline;
-    border-radius: 50%;
-    
-}
-
-.feedback-name {
-    display: inline;
-    padding-left: 1rem;
-    font-size: 1rem;
-    color: #fff;
-}
-
-#feedback-title1 {
-    color: white;
-}
-
-.school {
-    padding: 6rem;
-}
-
-#feedback-title2 {
-    color: #000;
-    display: inline;
-    padding: 0 4rem 0 0;
-}
-
-#feedback-row {
-  margin: 0;
-}
-
-.footer {
-    text-align: left;
-    margin: auto;
-    background-color: #1A2C38;
-    padding: 10rem 2rem;
-    width: 100%;
-}
-
-.footer-socialmedia {
-    display: inline;
-}
-
-.social-icon {
-    margin: 0rem 1rem;
-    width: 8%;
-    height: auto;
-}
-.footer-title {
-    margin-top: 0;
-    color: #97C1DF;
-}
-
-.footer-note {
-    color: #fff;
-    font-size: 0.8rem;
-}
-
-.home-service-img {
-    height: 30%;
-    width: auto;
-}
-#float-code {
-    position:fixed;
-    bottom:5%;
-    right:5%;
-    z-index: 9999;
-}
-.web-none {
-    display: none;
-}
-
+    html,body { 
+        height: 100%;
+        margin: 0;
+      }
+      #service-slogan {
+        font-size: 1.2rem;
+        color: #000;
+        font-weight: 700;
+    }
+      .banner-font {
+          color: #ffffff;
+          font-size: 2.5rem;
+          font-weight: 700;
+          line-height: 3rem;
+          padding-bottom: 3rem;
+      }
+      .contact-all {
+          bottom: 30%;
+          right: 0;
+          position: fixed;
+          z-index: 9999;
+          background-color: #F9F9F9;
+      }
+      .mobile-service {
+          text-align: center;
+      }
+      .contact-all-mini img {
+          display: none;
+          position: absolute;
+          left: -200px;
+          width: 200px;
+          height: 200px;
+      }
+      #phone-dely #delysia {
+          visibility: hidden;
+          width: 180px;
+          position: absolute;
+          z-index: 1;
+          right: 105%;
+          bottom: 30%;
+          background-color: #1A2C38;
+          color: #ffffff;
+          font-size: 1rem;
+          padding: 16px;
+      }
+      
+      #phone-dely:hover #delysia {
+          visibility: visible;
+      }
+      
+      .contact-all-mini {
+          display: block;
+          float: right;
+          clear: right;
+          /* border-bottom: 0.5px solid #9b9b9b; */
+      }
+      #contact-mobile {
+          display: none;
+      }
+      .contact-mini-icon {
+          color: #707B85;
+          margin: 18px;    
+          font-size: 2rem;
+          height: auto;
+      }
+      
+      .contact-mini-icon:hover {
+          color: #D15151;
+      }
+      
+      #service-book {
+          width: 100%;
+          margin-top: 6rem;
+          padding-top: 8rem;
+          margin-bottom: 6rem;
+          padding-bottom: 6rem;
+          margin: auto;
+      }
+      
+      #contact-mini-weixin {
+          display: block;
+          border-radius: 0.8em;
+          max-width: 100%;
+          height: auto;
+      }
+      
+      
+      h1 {
+          font-size: 1.5rem;
+          margin: 1.4rem 0;
+      }
+      
+      h2 {
+          font-size: 1.2rem;
+          color: #1A2C38;
+          margin: 2rem 0 0 0;
+      }
+      
+      h3 {
+          font-size: 1rem;
+      }
+      
+      
+      
+      .navbar {
+          background-color: #fff;
+      }
+      .dropdown:hover .dropdown-menu{
+          display:block;
+        }
+      
+      #intro {
+          position: relative;
+          background-color: white;
+          margin: auto;
+          text-align: center;
+          padding: 6rem 14rem;
+      }
+      
+      #service {
+          margin: auto;
+          text-align: left;
+          padding: 0 3rem;
+      }
+      
+      .devide-line {
+          width: 20%;
+          margin-bottom: -3rem;
+      }
+      .devide-home {
+          height: 1%;
+          width: auto;
+          margin-bottom: -3rem;
+      
+      }
+      .service-img {
+          height: 2.5rem;
+          width: auto;
+      }
+      
+      
+      .service-detail {
+          color: #898989;
+          font-size: 1rem;
+          margin: 1rem 0;
+          line-height: 2rem;
+      }
+      
+      .jump-service {
+          color: #D15151;
+          font-size: 0.8rem;
+          padding: 1rem;
+      }
+      
+      #service-home {
+          margin: auto;
+          text-align: left;
+          padding: 3rem 6rem;
+      }
+      
+      #choice {
+          margin: auto;
+          text-align: center;
+          width: 80%;
+          padding: 3rem 0;
+      }
+      
+      #choice-graphic {
+          padding: 3rem 0;
+          width: 70%;
+      
+      }
+      .counters span {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          font-size: 48px;
+          color: #D15151;
+        }
+        
+        .counters p {
+          padding: 0;
+          margin: 0 0 20px 0;
+          font-family: "Montserrat", sans-serif;
+          font-size: 18px;
+          color: #1A2C38;
+        }
+      
+      #feedback {
+          margin: auto;
+          padding: 3rem 0;
+      }
+      .btn-navy {
+          color: #1A2C38;
+          background-color: #fff;
+          border-color: #1A2C38;
+          border-radius: 50px;
+      }
+      .btn-navy:hover {
+          color: #fff;
+          background-color: #1A2C38;
+          border-color: #1A2C38;
+      }
+      .center-container {
+          text-align: center;
+      }
+      
+      .feedback-container {
+          padding: 0;
+          margin: 0;
+      }
+      .student {
+          background-color: #1A2C38;
+          padding: 3rem;
+      }
+      .feedback-person {
+          padding: 2rem 0;
+      }
+      .feedback-detail {
+          color: rgba(255, 255, 255, 60);
+      }
+      
+      .feedback-profile {
+          display: inline;
+          border-radius: 50%;
+          
+      }
+      
+      .feedback-name {
+          display: inline;
+          padding-left: 1rem;
+          font-size: 1.3rem;
+          color: #fff;
+      }
+      
+      #feedback-title1 {
+          color: white;
+      }
+      
+      #feedback-row {
+        margin: 0;
+      }
+      
+      .school {
+          padding: 6rem;
+      }
+      
+      #feedback-title2 {
+          color: #000;
+          display: inline;
+          padding: 0 4rem 0 0;
+      }
+      
+      .footer {
+          text-align: left;
+          margin: auto;
+          background-color: #1A2C38;
+          padding: 4rem 15%;
+          width: 100%;
+      }
+      
+      .footer-title {
+          margin-top: 0;
+          color: #97C1DF;
+      }
+      
+      .footer-note {
+          color: #ffffff;
+          font-size: 0.9rem;
+          line-height: 2rem;
+      }
+      
+      .home-service-img {
+          height: 5rem;
+          width: auto;
+      }
+      #float-code {
+          position:fixed;
+          bottom:5%;
+          right:5%;
+          z-index: 9999;
+      }
+      .web-none {
+          display: none;
+      }
+      .ser-body {
+          padding: 0 4rem;
+      }
+      
+      
+      .ser-main {
+          padding: 2rem;
+      }
+      
+      .landing-img {
+          text-align: center;
+      }
+      .carousel-item {
+          background: #1A2C38;
+      }
+      
+      #news {
+          width: 80%;
+          margin: auto;
+          padding: 0;
+      }
 }
 
 /* Max Layout */
@@ -807,6 +836,11 @@ h3 {
 html,body { 
   height: 100%;
   margin: 0;
+}
+#service-slogan {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 700;
 }
 .banner-font {
     color: #ffffff;

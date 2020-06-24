@@ -54,7 +54,7 @@
                     }
                     .company-whytitle {
                         padding: 4rem 0.8rem 1rem 0.8rem;
-                        color: #DD6B6B;
+                        color: #D15151;
                         font-size: 1rem;
                     }
             
@@ -74,7 +74,7 @@
                     }
             
                     #company-title1 {
-                        color: #DD6B6B;
+                        color: #D15151;
                         font-size: 1.5rem;
                         padding-bottom: 0.8rem;
                         padding-top: 3rem;
@@ -121,22 +121,10 @@
                         text-align: center;
                     }
             
-                    .company-btn {
-                        background-color: #1A2C38;
-                        margin: 3rem 0;
-                        border-color: #1A2C38;
-                        padding: 0.4rem 1.8rem;
-                    }
-            
-                    .company-btn:hover {
-                        background-color: #fff;
-                        color: #1A2C38;
-                        border-color: #1A2C38;
-                        
-                    }
+
             
                     #company-contract {
-                        color: #DD6B6B;
+                        color: #D15151;
                         background: none;
                         border: none;
                         padding: 0;
@@ -171,7 +159,7 @@
             
                     .form-title {
                         font-size: 1rem;
-                        color: #DD6B6B;
+                        color: #D15151;
                         font-weight: 500;
                         padding-top: 1rem;
                         padding-bottom: 1rem;
@@ -229,10 +217,11 @@
     
             .company-whydsp {
                 background: #1A2C38;
-                padding: 6rem 10rem 0 10rem;
+                padding: 3rem 3rem 0 3rem;
                 margin: 0;
                 text-align: left;
-                width: 100%;            }
+                width: 100%;            
+            }
     
                 .white-font {
                     color: #ffffff;
@@ -243,7 +232,7 @@
                 }
             .company-whytitle {
                 padding: 2rem 0rem 1rem 0rem;
-                color: #DD6B6B;
+                color: #D15151;
                 font-size: 1rem;
             }
     
@@ -263,7 +252,7 @@
             }
     
             #company-title1 {
-                color: #DD6B6B;
+                color: #D15151;
                 font-size: 2rem;
                 padding-bottom: 0.8rem;
             }
@@ -304,22 +293,9 @@
                 text-align: center;
             }
     
-            .company-btn {
-                background-color: #1A2C38;
-                margin: 5rem 0;
-                border-color: #1A2C38;
-                padding: 0.4rem 1.8rem;
-            }
-    
-            .company-btn:hover {
-                background-color: #fff;
-                color: #1A2C38;
-                border-color: #1A2C38;
-                
-            }
     
             #company-contract {
-                color: #DD6B6B;
+                color: #D15151;
                 background: none;
                 border: none;
                 padding: 0;
@@ -354,7 +330,7 @@
     
             .form-title {
                 font-size: 1.5rem;
-                color: #DD6B6B;
+                color: #D15151;
                 font-weight: 500;
                 padding-top: 1rem;
                 padding-bottom: 1rem;
@@ -413,7 +389,7 @@
 
         .company-whydsp {
             background: #1A2C38;
-            padding: 6rem 10rem 0 10rem;
+            padding: 6rem 6rem 0 6rem;
             margin: 0;
             text-align: left;
             width: 100%;        }
@@ -427,7 +403,7 @@
             }
         .company-whytitle {
             padding: 4rem 0.8rem 1rem 0.8rem;
-            color: #DD6B6B;
+            color: #D15151;
             font-size: 1.3rem;
         }
 
@@ -447,7 +423,7 @@
         }
 
         #company-title1 {
-            color: #DD6B6B;
+            color: #D15151;
             font-size: 2rem;
             padding-bottom: 0.8rem;
         }
@@ -488,22 +464,9 @@
             text-align: center;
         }
 
-        .company-btn {
-            background-color: #1A2C38;
-            margin: 4rem 0;
-            border-color: #1A2C38;
-            padding: 0.4rem 1.8rem;
-        }
-
-        .company-btn:hover {
-            background-color: #fff;
-            color: #1A2C38;
-            border-color: #1A2C38;
-            
-        }
 
         #company-contract {
-            color: #DD6B6B;
+            color: #D15151;
             background: none;
             border: none;
             padding: 0;
@@ -538,7 +501,7 @@
 
         .form-title {
             font-size: 1.5rem;
-            color: #DD6B6B;
+            color: #D15151;
             font-weight: 500;
             padding-top: 1rem;
             padding-bottom: 1rem;
@@ -611,7 +574,7 @@ button:focus {
 
 .company-whytitle {
     padding: 4rem 0.8rem 1rem 0.8rem;
-    color: #DD6B6B;
+    color: #D15151;
     font-size: 1.3rem;
 }
 
@@ -631,7 +594,7 @@ button:focus {
 }
 
 #company-title1 {
-    color: #DD6B6B;
+    color: #D15151;
     font-size: 2rem;
     padding-bottom: 0.8rem;
 }
@@ -671,22 +634,9 @@ button:focus {
     text-align: center;
 }
 
-.company-btn {
-    background-color: #ffffff;
-    margin: 5rem 0;
-    color: #1A2C38;
-    border-color: #1A2C38;
-    border-radius: 50px;
-}
-
-.company-btn:hover {
-    color: #fff;
-    background-color: #1A2C38;
-    border-color: #1A2C38; 
-}
 
 #company-contract {
-    color: #DD6B6B;
+    color: #D15151;
     background: none;
     border: none;
     padding: 0;
@@ -723,7 +673,7 @@ button:focus {
 
 .form-title {
     font-size: 1.5rem;
-    color: #DD6B6B;
+    color: #D15151;
     font-weight: 500;
     padding-top: 1rem;
     padding-bottom: 1rem;

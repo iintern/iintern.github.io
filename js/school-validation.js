@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.apply-competitor-form').bootstrapValidator({
+    $('.apply-school-form').bootstrapValidator({
         //submitButtons: '#postForm',
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later      
         fields: {
@@ -35,10 +35,10 @@ $(document).ready(function() {
         var bv = $form.data('bootstrapValidator');
 
         // Use Ajax to submit form data
-        var url = 'https://script.google.com/macros/s/AKfycbw5InkvuH_UPv_59jJ4V4rTxF23YjZvTboSBBaqIMCe7rPBwtc/exec';
+        var url = 'https://script.google.com/macros/s/AKfycbzt6mpUJ3iDGihFCUTXdfg27of1LGpiz7b1lIUOR2_-uj2XTtI/exec';
         var redirectUrl = 'success-page.html';
         // show the loading 
-        $('.apply-competitor-submit').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
+        $('.apply-school-submit').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
         console.log($form.serialize());
         var jqxhr = $.post(url, $form.serialize(), function(data) {
             console.log("Success! Data: " + data.statusText);

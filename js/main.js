@@ -74,11 +74,7 @@ $(document).ready(function(){
       scrollTop: 0
     }, 500);
   });
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 30,
-    time: 3000
-  });
-});
+
 
 
 var options = {
@@ -99,4 +95,4 @@ if (window.matchMedia('(prefers-reduced-motion)').matches) {
 function vidFade() {
   vid.classList.add("stopfade");
 }
-
+})

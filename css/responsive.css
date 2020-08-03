@@ -264,7 +264,9 @@ button:focus {
     border-color: #1A2C38;
     border-radius: 50px;
 }
-
+.feedback-carousel {
+    background-color: #1A2C38;
+}
 .btn-navy:hover {
     color: #fff;
     background-color: #1A2C38;
@@ -526,7 +528,9 @@ button:focus {
           border-color: #1A2C38;
           border-radius: 50px;
       }
-      
+      .feedback-carousel {
+        background-color: #1A2C38;
+    }
       .btn-navy:hover {
           color: #fff;
           background-color: #1A2C38;
@@ -839,7 +843,9 @@ button:focus {
       .landing-img {
           text-align: center;
       }
-      
+      .feedback-carousel {
+        background-color: #1A2C38;
+    }
       #news {
           width: 80%;
           margin: auto;
@@ -1152,7 +1158,9 @@ h3 {
 .landing-img {
     text-align: center;
 }
-
+.feedback-carousel {
+    background-color: #1A2C38;
+}
 
 #news {
     width: 80%;
